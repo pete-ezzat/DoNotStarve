@@ -1,838 +1,284 @@
-[03:47.05.382520]: Starting up
-[03:47.05.382570]: Don't Starve: 78490
+[10:58.45.792535]: Starting up
+[10:58.45.792634]: Don't Starve: 78490
 Build Date: 2013-05-28_14-56-39
-[03:47.05.382795]: THREAD - started 'GAClient' (4140858176)
-[03:47.05.382829]: HttpClient::ClientThread::Main()
-[03:47.05.504122]: cGame::InitializeOnMainThread
-[03:47.05.504174]: WindowManager::Initialize
-[03:47.05.549600]: GLInfo
-[03:47.05.549639]: ~~~~~~
-[03:47.05.549649]: GL_VENDOR: nouveau
-[03:47.05.549658]: GL_RENDERER: Gallium 0.4 on NVA8
-[03:47.05.549666]: GL_VERSION: 3.0 Mesa 10.1.3
-[03:47.05.549673]: GL_SHADING_LANGUAGE_VERSION: 1.30
-[03:47.05.549683]: OpenGL 3.0 present, detecting extensions the new way
-[03:47.05.549905]: OpenGL extensions (185, 185):
-[03:47.05.549914]: GL_AMD_conservative_depth
-[03:47.05.549923]: GL_AMD_draw_buffers_blend
-[03:47.05.549929]: GL_AMD_shader_trinary_minmax
-[03:47.05.549936]: GL_ANGLE_texture_compression_dxt3
-[03:47.05.549942]: GL_ANGLE_texture_compression_dxt5
-[03:47.05.549949]: GL_APPLE_packed_pixels
-[03:47.05.549955]: GL_APPLE_vertex_array_object
-[03:47.05.549962]: GL_ARB_ES2_compatibility
-[03:47.05.549968]: GL_ARB_base_instance
-[03:47.05.549974]: GL_ARB_blend_func_extended
-[03:47.05.549981]: GL_ARB_clear_buffer_object
-[03:47.05.549987]: GL_ARB_color_buffer_float
-[03:47.05.549993]: GL_ARB_conservative_depth
-[03:47.05.549999]: GL_ARB_copy_buffer
-[03:47.05.550006]: GL_ARB_debug_output
-[03:47.05.550012]: GL_ARB_depth_buffer_float
-[03:47.05.550018]: GL_ARB_depth_clamp
-[03:47.05.550025]: GL_ARB_depth_texture
-[03:47.05.550031]: GL_ARB_draw_buffers
-[03:47.05.550037]: GL_ARB_draw_buffers_blend
-[03:47.05.550044]: GL_ARB_draw_elements_base_vertex
-[03:47.05.550050]: GL_ARB_draw_instanced
-[03:47.05.550056]: GL_ARB_explicit_attrib_location
-[03:47.05.550063]: GL_ARB_fragment_coord_conventions
-[03:47.05.550070]: GL_ARB_fragment_program
-[03:47.05.550076]: GL_ARB_fragment_program_shadow
-[03:47.05.550083]: GL_ARB_fragment_shader
-[03:47.05.550089]: GL_ARB_framebuffer_object
-[03:47.05.550095]: GL_ARB_framebuffer_sRGB
-[03:47.05.550101]: GL_ARB_get_program_binary
-[03:47.05.550108]: GL_ARB_half_float_pixel
-[03:47.05.550114]: GL_ARB_half_float_vertex
-[03:47.05.550120]: GL_ARB_instanced_arrays
-[03:47.05.550127]: GL_ARB_internalformat_query
-[03:47.05.550133]: GL_ARB_invalidate_subdata
-[03:47.05.550139]: GL_ARB_map_buffer_alignment
-[03:47.05.550145]: GL_ARB_map_buffer_range
-[03:47.05.550151]: GL_ARB_multisample
-[03:47.05.550158]: GL_ARB_multitexture
-[03:47.05.550164]: GL_ARB_occlusion_query
-[03:47.05.550170]: GL_ARB_occlusion_query2
-[03:47.05.550177]: GL_ARB_pixel_buffer_object
-[03:47.05.550183]: GL_ARB_point_parameters
-[03:47.05.550189]: GL_ARB_point_sprite
-[03:47.05.550195]: GL_ARB_provoking_vertex
-[03:47.05.550202]: GL_ARB_robustness
-[03:47.05.550209]: GL_ARB_sampler_objects
-[03:47.05.550215]: GL_ARB_seamless_cube_map
-[03:47.05.550222]: GL_ARB_shader_bit_encoding
-[03:47.05.550228]: GL_ARB_shader_objects
-[03:47.05.550234]: GL_ARB_shader_texture_lod
-[03:47.05.550241]: GL_ARB_shading_language_100
-[03:47.05.550247]: GL_ARB_shading_language_420pack
-[03:47.05.550253]: GL_ARB_shading_language_packing
-[03:47.05.550260]: GL_ARB_shadow
-[03:47.05.550267]: GL_ARB_sync
-[03:47.05.550273]: GL_ARB_texture_border_clamp
-[03:47.05.550279]: GL_ARB_texture_compression
-[03:47.05.550286]: GL_ARB_texture_compression_rgtc
-[03:47.05.550292]: GL_ARB_texture_cube_map
-[03:47.05.550299]: GL_ARB_texture_env_add
-[03:47.05.550305]: GL_ARB_texture_env_combine
-[03:47.05.550311]: GL_ARB_texture_env_crossbar
-[03:47.05.550318]: GL_ARB_texture_env_dot3
-[03:47.05.550324]: GL_ARB_texture_float
-[03:47.05.550330]: GL_ARB_texture_mirror_clamp_to_edge
-[03:47.05.550337]: GL_ARB_texture_mirrored_repeat
-[03:47.05.550343]: GL_ARB_texture_multisample
-[03:47.05.550350]: GL_ARB_texture_non_power_of_two
-[03:47.05.550357]: GL_ARB_texture_rectangle
-[03:47.05.550363]: GL_ARB_texture_rg
-[03:47.05.550369]: GL_ARB_texture_rgb10_a2ui
-[03:47.05.550376]: GL_ARB_texture_storage
-[03:47.05.550382]: GL_ARB_texture_storage_multisample
-[03:47.05.550389]: GL_ARB_texture_swizzle
-[03:47.05.550395]: GL_ARB_timer_query
-[03:47.05.550401]: GL_ARB_transform_feedback2
-[03:47.05.550408]: GL_ARB_transform_feedback3
-[03:47.05.550428]: GL_ARB_transform_feedback_instanced
-[03:47.05.550436]: GL_ARB_transpose_matrix
-[03:47.05.550442]: GL_ARB_uniform_buffer_object
-[03:47.05.550449]: GL_ARB_vertex_array_bgra
-[03:47.05.550455]: GL_ARB_vertex_array_object
-[03:47.05.550461]: GL_ARB_vertex_attrib_binding
-[03:47.05.550467]: GL_ARB_vertex_buffer_object
-[03:47.05.550474]: GL_ARB_vertex_program
-[03:47.05.550480]: GL_ARB_vertex_shader
-[03:47.05.550487]: GL_ARB_vertex_type_2_10_10_10_rev
-[03:47.05.550493]: GL_ARB_window_pos
-[03:47.05.550500]: GL_ATI_blend_equation_separate
-[03:47.05.550506]: GL_ATI_draw_buffers
-[03:47.05.550513]: GL_ATI_separate_stencil
-[03:47.05.550519]: GL_ATI_texture_compression_3dc
-[03:47.05.550525]: GL_ATI_texture_env_combine3
-[03:47.05.550532]: GL_ATI_texture_float
-[03:47.05.550538]: GL_ATI_texture_mirror_once
-[03:47.05.550544]: GL_EXT_abgr
-[03:47.05.550550]: GL_EXT_bgra
-[03:47.05.550557]: GL_EXT_blend_color
-[03:47.05.550563]: GL_EXT_blend_equation_separate
-[03:47.05.550569]: GL_EXT_blend_func_separate
-[03:47.05.550576]: GL_EXT_blend_minmax
-[03:47.05.550582]: GL_EXT_blend_subtract
-[03:47.05.550588]: GL_EXT_compiled_vertex_array
-[03:47.05.550595]: GL_EXT_copy_texture
-[03:47.05.550601]: GL_EXT_draw_buffers2
-[03:47.05.550607]: GL_EXT_draw_instanced
-[03:47.05.550614]: GL_EXT_draw_range_elements
-[03:47.05.550620]: GL_EXT_fog_coord
-[03:47.05.550627]: GL_EXT_framebuffer_blit
-[03:47.05.550633]: GL_EXT_framebuffer_multisample
-[03:47.05.550640]: GL_EXT_framebuffer_multisample_blit_scaled
-[03:47.05.550646]: GL_EXT_framebuffer_object
-[03:47.05.550653]: GL_EXT_framebuffer_sRGB
-[03:47.05.550659]: GL_EXT_gpu_program_parameters
-[03:47.05.550666]: GL_EXT_multi_draw_arrays
-[03:47.05.550672]: GL_EXT_packed_depth_stencil
-[03:47.05.550678]: GL_EXT_packed_float
-[03:47.05.550685]: GL_EXT_packed_pixels
-[03:47.05.550691]: GL_EXT_pixel_buffer_object
-[03:47.05.550697]: GL_EXT_point_parameters
-[03:47.05.550704]: GL_EXT_polygon_offset
-[03:47.05.550710]: GL_EXT_provoking_vertex
-[03:47.05.550716]: GL_EXT_rescale_normal
-[03:47.05.550722]: GL_EXT_secondary_color
-[03:47.05.550729]: GL_EXT_separate_specular_color
-[03:47.05.550735]: GL_EXT_shadow_funcs
-[03:47.05.550742]: GL_EXT_stencil_two_side
-[03:47.05.550748]: GL_EXT_stencil_wrap
-[03:47.05.550754]: GL_EXT_subtexture
-[03:47.05.550760]: GL_EXT_texture
-[03:47.05.550767]: GL_EXT_texture3D
-[03:47.05.550773]: GL_EXT_texture_array
-[03:47.05.550780]: GL_EXT_texture_compression_dxt1
-[03:47.05.550786]: GL_EXT_texture_compression_latc
-[03:47.05.550793]: GL_EXT_texture_compression_rgtc
-[03:47.05.550799]: GL_EXT_texture_compression_s3tc
-[03:47.05.550806]: GL_EXT_texture_cube_map
-[03:47.05.550812]: GL_EXT_texture_edge_clamp
-[03:47.05.550819]: GL_EXT_texture_env_add
-[03:47.05.550825]: GL_EXT_texture_env_combine
-[03:47.05.550831]: GL_EXT_texture_env_dot3
-[03:47.05.550838]: GL_EXT_texture_filter_anisotropic
-[03:47.05.550845]: GL_EXT_texture_integer
-[03:47.05.550851]: GL_EXT_texture_lod_bias
-[03:47.05.550857]: GL_EXT_texture_mirror_clamp
-[03:47.05.550863]: GL_EXT_texture_object
-[03:47.05.550870]: GL_EXT_texture_rectangle
-[03:47.05.550876]: GL_EXT_texture_sRGB
-[03:47.05.550882]: GL_EXT_texture_sRGB_decode
-[03:47.05.550889]: GL_EXT_texture_shared_exponent
-[03:47.05.550895]: GL_EXT_texture_snorm
-[03:47.05.550901]: GL_EXT_texture_swizzle
-[03:47.05.550908]: GL_EXT_timer_query
-[03:47.05.550914]: GL_EXT_transform_feedback
-[03:47.05.550920]: GL_EXT_vertex_array
-[03:47.05.550927]: GL_EXT_vertex_array_bgra
-[03:47.05.550933]: GL_IBM_multimode_draw_arrays
-[03:47.05.550939]: GL_IBM_rasterpos_clip
-[03:47.05.550946]: GL_IBM_texture_mirrored_repeat
-[03:47.05.550952]: GL_INGR_blend_func_separate
-[03:47.05.550959]: GL_KHR_debug
-[03:47.05.550965]: GL_MESA_pack_invert
-[03:47.05.550971]: GL_MESA_texture_signed_rgba
-[03:47.05.550978]: GL_MESA_window_pos
-[03:47.05.550984]: GL_NV_blend_square
-[03:47.05.550990]: GL_NV_conditional_render
-[03:47.05.550997]: GL_NV_depth_clamp
-[03:47.05.551003]: GL_NV_fog_distance
-[03:47.05.551009]: GL_NV_light_max_exponent
-[03:47.05.551015]: GL_NV_packed_depth_stencil
-[03:47.05.551022]: GL_NV_primitive_restart
-[03:47.05.551033]: GL_NV_texgen_reflection
-[03:47.05.551040]: GL_NV_texture_barrier
-[03:47.05.551046]: GL_NV_texture_env_combine4
-[03:47.05.551053]: GL_NV_texture_rectangle
-[03:47.05.551059]: GL_NV_vdpau_interop
-[03:47.05.551065]: GL_OES_EGL_image
-[03:47.05.551072]: GL_OES_read_format
-[03:47.05.551078]: GL_S3_s3tc
-[03:47.05.551084]: GL_SGIS_generate_mipmap
-[03:47.05.551091]: GL_SGIS_texture_border_clamp
-[03:47.05.551097]: GL_SGIS_texture_edge_clamp
-[03:47.05.551103]: GL_SGIS_texture_lod
-[03:47.05.551110]: GL_SUN_multi_draw_arrays
-[03:47.05.551122]: GL_MAX_TEXTURE_SIZE = 8192
-[03:47.05.551129]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[03:47.05.551137]: GL_MAX_RENDERBUFFER_SIZE = 8192
-[03:47.05.551144]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
-[03:47.05.551151]: GL_MAX_VARYING_VECTORS = 15
-[03:47.05.551158]: GL_MAX_VERTEX_ATTRIBS = 16
-[03:47.05.551165]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
-[03:47.05.551172]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-[03:47.05.551179]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
-[03:47.05.575602]: cDontStarveGame::DoGameSpecificInitialize()
-[03:47.05.582899]: cGame::StartPlaying
-[03:47.05.585920]: LOADING LUA
-[03:47.05.585956]: DoLuaFile data/scripts/main.lua
-[03:47.05.586037]: DoLuaFile loading buffer data/scripts/main.lua
-[03:47.05.617988]: data/scripts/main.lua(115,1)	running main.lua
+[10:58.45.794749]: THREAD - started 'GAClient' (4141288256)
+[10:58.45.794805]: HttpClient::ClientThread::Main()
+[10:58.46.1212]: cGame::InitializeOnMainThread
+[10:58.46.1240]: WindowManager::Initialize
+[10:58.46.77447]: GLInfo
+[10:58.46.77483]: ~~~~~~
+[10:58.46.77493]: GL_VENDOR: nouveau
+[10:58.46.77502]: GL_RENDERER: Gallium 0.4 on NVA8
+[10:58.46.77510]: GL_VERSION: 3.0 Mesa 10.1.3
+[10:58.46.77516]: GL_SHADING_LANGUAGE_VERSION: 1.30
+[10:58.46.77527]: OpenGL 3.0 present, detecting extensions the new way
+[10:58.46.77745]: OpenGL extensions (185, 185):
+[10:58.46.77753]: GL_AMD_conservative_depth
+[10:58.46.77761]: GL_AMD_draw_buffers_blend
+[10:58.46.77767]: GL_AMD_shader_trinary_minmax
+[10:58.46.77773]: GL_ANGLE_texture_compression_dxt3
+[10:58.46.77779]: GL_ANGLE_texture_compression_dxt5
+[10:58.46.77785]: GL_APPLE_packed_pixels
+[10:58.46.77791]: GL_APPLE_vertex_array_object
+[10:58.46.77797]: GL_ARB_ES2_compatibility
+[10:58.46.77803]: GL_ARB_base_instance
+[10:58.46.77809]: GL_ARB_blend_func_extended
+[10:58.46.77815]: GL_ARB_clear_buffer_object
+[10:58.46.77821]: GL_ARB_color_buffer_float
+[10:58.46.77827]: GL_ARB_conservative_depth
+[10:58.46.77832]: GL_ARB_copy_buffer
+[10:58.46.77838]: GL_ARB_debug_output
+[10:58.46.77844]: GL_ARB_depth_buffer_float
+[10:58.46.77850]: GL_ARB_depth_clamp
+[10:58.46.77856]: GL_ARB_depth_texture
+[10:58.46.77861]: GL_ARB_draw_buffers
+[10:58.46.77867]: GL_ARB_draw_buffers_blend
+[10:58.46.77873]: GL_ARB_draw_elements_base_vertex
+[10:58.46.77879]: GL_ARB_draw_instanced
+[10:58.46.77885]: GL_ARB_explicit_attrib_location
+[10:58.46.77891]: GL_ARB_fragment_coord_conventions
+[10:58.46.77897]: GL_ARB_fragment_program
+[10:58.46.77903]: GL_ARB_fragment_program_shadow
+[10:58.46.77909]: GL_ARB_fragment_shader
+[10:58.46.77915]: GL_ARB_framebuffer_object
+[10:58.46.77921]: GL_ARB_framebuffer_sRGB
+[10:58.46.77926]: GL_ARB_get_program_binary
+[10:58.46.77932]: GL_ARB_half_float_pixel
+[10:58.46.77938]: GL_ARB_half_float_vertex
+[10:58.46.77944]: GL_ARB_instanced_arrays
+[10:58.46.77950]: GL_ARB_internalformat_query
+[10:58.46.77955]: GL_ARB_invalidate_subdata
+[10:58.46.77961]: GL_ARB_map_buffer_alignment
+[10:58.46.77967]: GL_ARB_map_buffer_range
+[10:58.46.77973]: GL_ARB_multisample
+[10:58.46.77978]: GL_ARB_multitexture
+[10:58.46.77984]: GL_ARB_occlusion_query
+[10:58.46.77990]: GL_ARB_occlusion_query2
+[10:58.46.77996]: GL_ARB_pixel_buffer_object
+[10:58.46.78002]: GL_ARB_point_parameters
+[10:58.46.78007]: GL_ARB_point_sprite
+[10:58.46.78013]: GL_ARB_provoking_vertex
+[10:58.46.78019]: GL_ARB_robustness
+[10:58.46.78025]: GL_ARB_sampler_objects
+[10:58.46.78030]: GL_ARB_seamless_cube_map
+[10:58.46.78036]: GL_ARB_shader_bit_encoding
+[10:58.46.78042]: GL_ARB_shader_objects
+[10:58.46.78048]: GL_ARB_shader_texture_lod
+[10:58.46.78054]: GL_ARB_shading_language_100
+[10:58.46.78059]: GL_ARB_shading_language_420pack
+[10:58.46.78066]: GL_ARB_shading_language_packing
+[10:58.46.78072]: GL_ARB_shadow
+[10:58.46.78077]: GL_ARB_sync
+[10:58.46.78083]: GL_ARB_texture_border_clamp
+[10:58.46.78089]: GL_ARB_texture_compression
+[10:58.46.78095]: GL_ARB_texture_compression_rgtc
+[10:58.46.78101]: GL_ARB_texture_cube_map
+[10:58.46.78106]: GL_ARB_texture_env_add
+[10:58.46.78112]: GL_ARB_texture_env_combine
+[10:58.46.78118]: GL_ARB_texture_env_crossbar
+[10:58.46.78124]: GL_ARB_texture_env_dot3
+[10:58.46.78130]: GL_ARB_texture_float
+[10:58.46.78135]: GL_ARB_texture_mirror_clamp_to_edge
+[10:58.46.78141]: GL_ARB_texture_mirrored_repeat
+[10:58.46.78147]: GL_ARB_texture_multisample
+[10:58.46.78153]: GL_ARB_texture_non_power_of_two
+[10:58.46.78159]: GL_ARB_texture_rectangle
+[10:58.46.78165]: GL_ARB_texture_rg
+[10:58.46.78171]: GL_ARB_texture_rgb10_a2ui
+[10:58.46.78177]: GL_ARB_texture_storage
+[10:58.46.78182]: GL_ARB_texture_storage_multisample
+[10:58.46.78188]: GL_ARB_texture_swizzle
+[10:58.46.78194]: GL_ARB_timer_query
+[10:58.46.78200]: GL_ARB_transform_feedback2
+[10:58.46.78206]: GL_ARB_transform_feedback3
+[10:58.46.78212]: GL_ARB_transform_feedback_instanced
+[10:58.46.78237]: GL_ARB_transpose_matrix
+[10:58.46.78244]: GL_ARB_uniform_buffer_object
+[10:58.46.78250]: GL_ARB_vertex_array_bgra
+[10:58.46.78256]: GL_ARB_vertex_array_object
+[10:58.46.78262]: GL_ARB_vertex_attrib_binding
+[10:58.46.78268]: GL_ARB_vertex_buffer_object
+[10:58.46.78273]: GL_ARB_vertex_program
+[10:58.46.78279]: GL_ARB_vertex_shader
+[10:58.46.78285]: GL_ARB_vertex_type_2_10_10_10_rev
+[10:58.46.78291]: GL_ARB_window_pos
+[10:58.46.78297]: GL_ATI_blend_equation_separate
+[10:58.46.78303]: GL_ATI_draw_buffers
+[10:58.46.78309]: GL_ATI_separate_stencil
+[10:58.46.78315]: GL_ATI_texture_compression_3dc
+[10:58.46.78320]: GL_ATI_texture_env_combine3
+[10:58.46.78326]: GL_ATI_texture_float
+[10:58.46.78332]: GL_ATI_texture_mirror_once
+[10:58.46.78338]: GL_EXT_abgr
+[10:58.46.78343]: GL_EXT_bgra
+[10:58.46.78349]: GL_EXT_blend_color
+[10:58.46.78355]: GL_EXT_blend_equation_separate
+[10:58.46.78361]: GL_EXT_blend_func_separate
+[10:58.46.78367]: GL_EXT_blend_minmax
+[10:58.46.78372]: GL_EXT_blend_subtract
+[10:58.46.78378]: GL_EXT_compiled_vertex_array
+[10:58.46.78384]: GL_EXT_copy_texture
+[10:58.46.78390]: GL_EXT_draw_buffers2
+[10:58.46.78395]: GL_EXT_draw_instanced
+[10:58.46.78401]: GL_EXT_draw_range_elements
+[10:58.46.78407]: GL_EXT_fog_coord
+[10:58.46.78413]: GL_EXT_framebuffer_blit
+[10:58.46.78418]: GL_EXT_framebuffer_multisample
+[10:58.46.78424]: GL_EXT_framebuffer_multisample_blit_scaled
+[10:58.46.78430]: GL_EXT_framebuffer_object
+[10:58.46.78436]: GL_EXT_framebuffer_sRGB
+[10:58.46.78442]: GL_EXT_gpu_program_parameters
+[10:58.46.78448]: GL_EXT_multi_draw_arrays
+[10:58.46.78453]: GL_EXT_packed_depth_stencil
+[10:58.46.78459]: GL_EXT_packed_float
+[10:58.46.78465]: GL_EXT_packed_pixels
+[10:58.46.78471]: GL_EXT_pixel_buffer_object
+[10:58.46.78477]: GL_EXT_point_parameters
+[10:58.46.78482]: GL_EXT_polygon_offset
+[10:58.46.78488]: GL_EXT_provoking_vertex
+[10:58.46.78494]: GL_EXT_rescale_normal
+[10:58.46.78500]: GL_EXT_secondary_color
+[10:58.46.78505]: GL_EXT_separate_specular_color
+[10:58.46.78511]: GL_EXT_shadow_funcs
+[10:58.46.78517]: GL_EXT_stencil_two_side
+[10:58.46.78523]: GL_EXT_stencil_wrap
+[10:58.46.78528]: GL_EXT_subtexture
+[10:58.46.78534]: GL_EXT_texture
+[10:58.46.78540]: GL_EXT_texture3D
+[10:58.46.78546]: GL_EXT_texture_array
+[10:58.46.78551]: GL_EXT_texture_compression_dxt1
+[10:58.46.78557]: GL_EXT_texture_compression_latc
+[10:58.46.78563]: GL_EXT_texture_compression_rgtc
+[10:58.46.78569]: GL_EXT_texture_compression_s3tc
+[10:58.46.78575]: GL_EXT_texture_cube_map
+[10:58.46.78581]: GL_EXT_texture_edge_clamp
+[10:58.46.78587]: GL_EXT_texture_env_add
+[10:58.46.78592]: GL_EXT_texture_env_combine
+[10:58.46.78598]: GL_EXT_texture_env_dot3
+[10:58.46.78604]: GL_EXT_texture_filter_anisotropic
+[10:58.46.78610]: GL_EXT_texture_integer
+[10:58.46.78616]: GL_EXT_texture_lod_bias
+[10:58.46.78621]: GL_EXT_texture_mirror_clamp
+[10:58.46.78627]: GL_EXT_texture_object
+[10:58.46.78633]: GL_EXT_texture_rectangle
+[10:58.46.78639]: GL_EXT_texture_sRGB
+[10:58.46.78645]: GL_EXT_texture_sRGB_decode
+[10:58.46.78650]: GL_EXT_texture_shared_exponent
+[10:58.46.78656]: GL_EXT_texture_snorm
+[10:58.46.78664]: GL_EXT_texture_swizzle
+[10:58.46.78674]: GL_EXT_timer_query
+[10:58.46.78683]: GL_EXT_transform_feedback
+[10:58.46.78692]: GL_EXT_vertex_array
+[10:58.46.78702]: GL_EXT_vertex_array_bgra
+[10:58.46.78711]: GL_IBM_multimode_draw_arrays
+[10:58.46.78721]: GL_IBM_rasterpos_clip
+[10:58.46.78731]: GL_IBM_texture_mirrored_repeat
+[10:58.46.78741]: GL_INGR_blend_func_separate
+[10:58.46.78751]: GL_KHR_debug
+[10:58.46.78763]: GL_MESA_pack_invert
+[10:58.46.78773]: GL_MESA_texture_signed_rgba
+[10:58.46.78784]: GL_MESA_window_pos
+[10:58.46.78795]: GL_NV_blend_square
+[10:58.46.78801]: GL_NV_conditional_render
+[10:58.46.78807]: GL_NV_depth_clamp
+[10:58.46.78813]: GL_NV_fog_distance
+[10:58.46.78819]: GL_NV_light_max_exponent
+[10:58.46.78829]: GL_NV_packed_depth_stencil
+[10:58.46.78840]: GL_NV_primitive_restart
+[10:58.46.78851]: GL_NV_texgen_reflection
+[10:58.46.78862]: GL_NV_texture_barrier
+[10:58.46.78870]: GL_NV_texture_env_combine4
+[10:58.46.78877]: GL_NV_texture_rectangle
+[10:58.46.78896]: GL_NV_vdpau_interop
+[10:58.46.78908]: GL_OES_EGL_image
+[10:58.46.78915]: GL_OES_read_format
+[10:58.46.78922]: GL_S3_s3tc
+[10:58.46.78932]: GL_SGIS_generate_mipmap
+[10:58.46.78942]: GL_SGIS_texture_border_clamp
+[10:58.46.78952]: GL_SGIS_texture_edge_clamp
+[10:58.46.78962]: GL_SGIS_texture_lod
+[10:58.46.78971]: GL_SUN_multi_draw_arrays
+[10:58.46.78989]: GL_MAX_TEXTURE_SIZE = 8192
+[10:58.46.78998]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[10:58.46.79006]: GL_MAX_RENDERBUFFER_SIZE = 8192
+[10:58.46.79012]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
+[10:58.46.79019]: GL_MAX_VARYING_VECTORS = 15
+[10:58.46.79026]: GL_MAX_VERTEX_ATTRIBS = 16
+[10:58.46.79033]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
+[10:58.46.79039]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
+[10:58.46.79046]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
+[10:58.46.147623]: cDontStarveGame::DoGameSpecificInitialize()
+[10:58.46.158319]: cGame::StartPlaying
+[10:58.46.164415]: LOADING LUA
+[10:58.46.164449]: DoLuaFile data/scripts/main.lua
+[10:58.46.165370]: DoLuaFile loading buffer data/scripts/main.lua
+[10:58.46.263780]: data/scripts/main.lua(115,1)	running main.lua
 
-[03:47.05.642172]: LOADING LUA SUCCESS
-[03:47.05.721634]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[03:47.05.722570]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[03:47.05.723073]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[03:47.05.827614]: data/scripts/gamelogic.lua(65,1)	done
-[03:47.05.830553]: Reset() returning
-[03:47.10.331511]: Collecting garbage...
-[03:47.10.339470]: lua_gc took 0.01 seconds
-[03:47.10.347759]: lua_close took 0.01 seconds
-[03:47.10.348076]: ReleaseAll
-[03:47.10.348134]: ReleaseAll Finished
-[03:47.10.348390]: cGame::StartPlaying
-[03:47.10.351235]: LOADING LUA
-[03:47.10.351268]: DoLuaFile data/scripts/main.lua
-[03:47.10.351374]: DoLuaFile loading buffer data/scripts/main.lua
-[03:47.10.382108]: data/scripts/main.lua(115,1)	running main.lua
+[10:58.46.347857]: LOADING LUA SUCCESS
+[10:58.46.534651]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[10:58.46.535788]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[10:58.46.537343]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[10:58.46.772521]: data/scripts/gamelogic.lua(65,1)	done
+[10:58.46.775468]: Reset() returning
+[10:58.51.113056]: Collecting garbage...
+[10:58.51.120964]: lua_gc took 0.01 seconds
+[10:58.51.128962]: lua_close took 0.01 seconds
+[10:58.51.129770]: ReleaseAll
+[10:58.51.129834]: ReleaseAll Finished
+[10:58.51.130093]: cGame::StartPlaying
+[10:58.51.133064]: LOADING LUA
+[10:58.51.133094]: DoLuaFile data/scripts/main.lua
+[10:58.51.133231]: DoLuaFile loading buffer data/scripts/main.lua
+[10:58.51.163175]: data/scripts/main.lua(115,1)	running main.lua
 
-[03:47.10.383053]: LOADING LUA SUCCESS
-[03:47.10.460566]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[03:47.10.461701]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[03:47.10.512797]: data/scripts/gamelogic.lua(67,1)	LOAD BE
-[03:47.11.228973]: data/scripts/gamelogic.lua(71,1)	done
-[03:47.11.691613]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
-[03:47.13.115143]: Reset() returning
-[03:50.30.485490]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[03:51.55.942944]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[03:54.43.590879]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[03:54.44.4407]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[04:02.52.884864]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[04:02.53.293631]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[04:05.08.147653]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[04:05.43.549414]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[04:09.12.849757]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.13.270321]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.247567]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.247879]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.251435]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.251993]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.381974]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.387958]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.430632]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.684367]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.786847]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.838629]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.14.842436]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.158209]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.212001]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.212218]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.283926]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.321946]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.548291]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.15.551876]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.16.15271]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.16.662811]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.16.837783]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.16.838109]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.16.841667]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.16.961891]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.17.579346]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.17.893251]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.17.953683]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.18.168598]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.18.393560]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.18.397631]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.310144]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.310342]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.310571]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.310882]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.314491]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.755409]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.19.755644]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.20.29606]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.20.322974]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.20.437570]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.20.437827]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.20.802464]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.20.991478]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.126925]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.219511]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.290196]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.482714]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.697242]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.703099]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.21.916938]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.22.425697]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.22.806330]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.22.934476]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.7600]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.85010]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.226412]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.462024]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.462295]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.462769]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.611701]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.23.760194]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.24.164174]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.24.603952]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.24.604163]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.24.604360]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.24.853496]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.24.904340]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.25.359804]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.25.743587]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.25.885277]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.355463]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.355656]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.411756]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.411964]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.707441]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.707643]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.856675]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.26.927017]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.27.4462]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.27.159365]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.27.159719]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.27.224245]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.27.522247]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.127593]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.127820]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.338978]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.393921]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.606374]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.610822]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.836716]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.886663]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.957822]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.958021]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.28.958180]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.133377]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.133919]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.524042]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.529014]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.929778]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.929997]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.29.990506]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.333220]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.333443]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.501934]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.502194]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.502394]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.695253]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.755625]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.820286]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.30.874993]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.156543]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.186222]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.249192]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.253696]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.561551]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.685558]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.816683]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.821933]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.929823]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.31.989700]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.166079]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.296565]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.404003]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.404252]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.408523]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.643545]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.647436]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.647646]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.702708]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.708096]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.32.883254]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.4712]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.4918]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.64829]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.156335]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.156584]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.335379]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.373716]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.374641]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.374811]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.497549]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.497891]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.559731]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.559939]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.560236]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.564403]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.685409]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.690025]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.837692]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.33.883451]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.14992]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.166658]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.171648]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.296994]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.297249]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.487426]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.491552]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.491783]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.559244]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.848426]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.848642]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.853543]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.857713]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.858525]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.34.897615]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.116212]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.121398]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.322045]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.322641]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.328447]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.382851]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.447400]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.854053]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.854675]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.35.993601]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.36.57632]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.36.262931]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.36.337443]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.36.458694]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.36.595551]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.246295]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.253012]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.377862]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.383268]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.447867]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.448133]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.572243]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.841904]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.37.854451]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.25203]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.152225]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.411480]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.467806]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.590404]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.890614]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.950860]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.955196]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.955407]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.38.955600]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.15319]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.75308]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.368374]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.489481]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.542580]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.654489]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.654686]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.39.924861]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.99801]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.293333]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.387868]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.493062]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.493308]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.538635]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.886818]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.40.887046]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.41.215299]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.41.539559]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.41.624077]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.41.714249]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.41.758838]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.41.943038]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.42.89231]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.42.315062]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.42.611874]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.58070]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.58251]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.114576]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.191844]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.369605]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.501268]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.546520]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.43.590466]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.76860]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.282770]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.361888]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.405348]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.410253]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.446364]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.573370]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.742400]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.747393]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.44.912338]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.210449]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.214735]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.214946]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.301757]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.301970]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.302132]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.507681]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.676807]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.677663]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.754013]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.45.801230]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.243605]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.243958]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.290800]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.366096]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.606968]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.926293]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.966074]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.46.966664]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.123683]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.123900]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.242328]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.321749]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.438852]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.477006]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.477241]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.477404]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.592678]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.594189]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.858444]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.858639]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.895886]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.47.976149]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.160698]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.198315]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.198985]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.199193]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.240206]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.573929]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.722689]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.723000]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.837829]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.912055]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.48.949598]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.71775]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.218380]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.441720]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.442376]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.589596]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.589869]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.49.741299]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.76652]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.257591]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.331741]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.409683]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.409878]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.552467]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.626761]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.812144]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.50.996274]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.51.178889]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.51.292631]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.51.655626]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.52.177412]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.52.177620]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.52.726080]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.53.91931]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.53.158995]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.53.620800]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.53.833540]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.54.43405]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.54.82652]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.54.250688]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.54.594094]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.54.769186]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.15285]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.158462]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.308256]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.660077]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.808910]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.812743]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.55.812963]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.56.16331]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.319970]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.320171]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.353082]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.353368]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.457410]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.458547]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.663881]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.871171]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.57.972201]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.58.718665]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.58.822490]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.58.954101]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.428019]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.461745]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.529164]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.733014]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.767734]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.835556]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:09.59.972403]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.00.320398]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.00.452907]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.00.930898]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.01.40164]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.01.510086]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.01.645879]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.01.820621]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.02.422255]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.02.818279]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.02.952284]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.02.952493]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.02.953036]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.03.761168]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.03.761416]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.03.825447]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.04.44095]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.04.136983]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.04.719383]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.04.958280]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.17312]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.194170]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.223158]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.223367]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.281926]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.311993]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.340978]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.05.917572]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.06.203516]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.06.203714]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.06.375263]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.07.60180]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.07.85604]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.07.519672]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.08.349901]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.08.350138]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.08.520706]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.36790]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.37004]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.151875]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.380801]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.495801]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.523746]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.524295]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.524470]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.524652]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.09.981835]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.10.96683]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.10.97207]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.10.440167]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.10.554429]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.10.983119]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.183261]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.326045]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.638975]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.696767]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.725238]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.725650]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.781989]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.810562]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.11.924975]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.12.750496]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.12.807026]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.12.807440]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.490571]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.518652]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.660696]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.717461]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.718204]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.774387]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.13.973979]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.14.683048]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.14.711079]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.14.825550]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.14.909883]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.50895]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.79686]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.191964]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.192242]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.390778]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.504385]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.646381]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.872414]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.15.929463]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.240813]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.268843]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.269084]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.382943]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.609590]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.777467]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.806802]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.16.807044]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.17.87312]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.17.115954]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.17.285007]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.17.821615]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.18.161290]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.18.217891]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.18.359507]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.18.782722]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.19.293785]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.20.323740]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.20.694774]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.20.752103]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.21.38411]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.21.209954]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.21.524791]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.21.925236]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.22.153932]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.22.353818]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.22.610281]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.23.179635]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.23.179836]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.23.747724]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.23.747926]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.25.480678]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.25.480881]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.25.537838]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.25.791190]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.26.242614]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.26.242818]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.26.409856]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.27.344896]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.27.345444]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.30.60145]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.30.393565]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.30.838222]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.30.838416]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.31.4782]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.31.476769]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.31.504341]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.31.976935]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.32.89991]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.32.705024]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.34.24522]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.35.155400]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.35.382902]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.36.181160]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.37.573854]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.37.658849]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.38.628013]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.39.430925]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.41.338711]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.41.819661]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.41.819912]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.43.85341]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.43.561366]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.44.580198]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.44.748719]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.45.32081]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.45.171132]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.45.648255]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.45.648561]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.45.817228]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.46.492050]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.46.548091]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.46.772071]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.109832]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.138000]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.249600]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.250022]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.614585]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.614791]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.47.754892]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.177058]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.261102]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.261333]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.317269]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.317487]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.878647]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.906579]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.906811]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.962557]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.962791]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.48.990441]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.49.103042]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.49.242512]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.49.606981]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.49.993858]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.50.189098]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.50.328684]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.50.564778]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.50.748592]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.50.776329]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.51.224349]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.51.224779]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.51.790641]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.51.877069]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.52.77589]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.52.163368]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.52.163586]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.52.588983]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.53.120823]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.53.121288]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.53.148003]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.53.482907]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.53.483154]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.54.629702]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:10.55.105325]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
-[04:11.12.998678]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[04:11.13.380929]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[04:12.01.145437]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[04:12.38.820475]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[04:19.18.903412]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[04:19.19.304955]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[04:19.54.111447]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[04:19.54.176481]: Collecting garbage...
-[04:19.54.330049]: lua_gc took 0.15 seconds
-[04:19.54.502576]: lua_close took 0.17 seconds
-[04:19.54.503260]: ReleaseAll
-[04:19.54.505707]: ReleaseAll Finished
-[04:19.54.505972]: cGame::StartPlaying
-[04:19.54.509372]: LOADING LUA
-[04:19.54.509409]: DoLuaFile data/scripts/main.lua
-[04:19.54.509529]: DoLuaFile loading buffer data/scripts/main.lua
-[04:19.54.542040]: data/scripts/main.lua(115,1)	running main.lua
+[10:58.51.164063]: LOADING LUA SUCCESS
+[10:58.51.240697]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[10:58.51.241649]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[10:58.51.289727]: data/scripts/gamelogic.lua(67,1)	LOAD BE
+[10:58.52.715915]: data/scripts/gamelogic.lua(71,1)	done
+[10:58.53.248251]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
+[10:58.54.595434]: Reset() returning
+[11:06.37.261966]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[11:06.37.664379]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[11:10.26.690567]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[11:11.51.260102]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[11:12.00.233191]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[11:12.00.288084]: Collecting garbage...
+[11:12.00.422386]: lua_gc took 0.13 seconds
+[11:12.00.567737]: lua_close took 0.15 seconds
+[11:12.00.568327]: ReleaseAll
+[11:12.00.570187]: ReleaseAll Finished
+[11:12.00.570442]: cGame::StartPlaying
+[11:12.00.573892]: LOADING LUA
+[11:12.00.573927]: DoLuaFile data/scripts/main.lua
+[11:12.00.574076]: DoLuaFile loading buffer data/scripts/main.lua
+[11:12.00.606340]: data/scripts/main.lua(115,1)	running main.lua
 
-[04:19.54.543223]: LOADING LUA SUCCESS
-[04:19.54.622294]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[04:19.54.623233]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[04:19.54.623695]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[04:19.54.717360]: data/scripts/gamelogic.lua(65,1)	done
-[04:19.54.719849]: Reset() returning
-[04:20.01.279924]: Collecting garbage...
-[04:20.01.287481]: lua_gc took 0.01 seconds
-[04:20.01.296131]: lua_close took 0.01 seconds
-[04:20.01.296838]: ORPHANED UNKNOWN RESOURCES:
-[04:20.01.296850]: data/fonts/belisaplumilla100.zip - 2
-[04:20.01.296896]: data/fonts/belisaplumilla50.zip - 2
-[04:20.01.296905]: data/fonts/talkingfont.zip - 2
-[04:20.01.296913]: data/fonts/stint-ucr20.zip - 2
-[04:20.01.296920]: data/fonts/buttonfont.zip - 2
-[04:20.01.296927]: data/fonts/stint-ucr50.zip - 2
-[04:20.01.296934]: data/fonts/opensans50.zip - 2
-[04:20.01.331933]: ORPHANED UNKNOWN RESOURCES:
-[04:20.01.331967]: data/fonts/belisaplumilla100.zip - 1
-[04:20.01.332014]: data/fonts/belisaplumilla50.zip - 1
-[04:20.01.332064]: data/fonts/talkingfont.zip - 1
-[04:20.01.332112]: data/fonts/stint-ucr20.zip - 1
-[04:20.01.332162]: data/fonts/buttonfont.zip - 1
-[04:20.01.332177]: data/fonts/stint-ucr50.zip - 1
-[04:20.01.332225]: data/images/square.tex - 2
-[04:20.01.332272]: data/fonts/opensans50.zip - 1
-[04:20.01.441632]: HttpClient::ClientThread::Main() complete
-[04:20.01.441725]: Shutting down
+[11:12.00.607326]: LOADING LUA SUCCESS
+[11:12.00.685468]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[11:12.00.686404]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[11:12.00.686869]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[11:12.00.780895]: data/scripts/gamelogic.lua(65,1)	done
+[11:12.00.783459]: Reset() returning
+[11:12.03.980713]: Collecting garbage...
+[11:12.03.989033]: lua_gc took 0.01 seconds
+[11:12.03.997639]: lua_close took 0.01 seconds
+[11:12.03.998362]: ORPHANED UNKNOWN RESOURCES:
+[11:12.03.998374]: data/fonts/belisaplumilla100.zip - 2
+[11:12.03.998382]: data/fonts/belisaplumilla50.zip - 2
+[11:12.03.998389]: data/fonts/talkingfont.zip - 2
+[11:12.03.998396]: data/fonts/stint-ucr20.zip - 2
+[11:12.03.998404]: data/fonts/buttonfont.zip - 2
+[11:12.03.998411]: data/fonts/stint-ucr50.zip - 2
+[11:12.03.998418]: data/fonts/opensans50.zip - 2
+[11:12.04.33843]: ORPHANED UNKNOWN RESOURCES:
+[11:12.04.33878]: data/fonts/belisaplumilla100.zip - 1
+[11:12.04.33946]: data/fonts/belisaplumilla50.zip - 1
+[11:12.04.33990]: data/fonts/talkingfont.zip - 1
+[11:12.04.34038]: data/fonts/stint-ucr20.zip - 1
+[11:12.04.34083]: data/fonts/buttonfont.zip - 1
+[11:12.04.34095]: data/fonts/stint-ucr50.zip - 1
+[11:12.04.34136]: data/images/square.tex - 2
+[11:12.04.34181]: data/fonts/opensans50.zip - 1
+[11:12.04.106342]: HttpClient::ClientThread::Main() complete
+[11:12.04.106443]: Shutting down
