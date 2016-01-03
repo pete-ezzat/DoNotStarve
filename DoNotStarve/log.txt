@@ -220,3 +220,65 @@ Build Date: 2013-05-28_14-56-39
 [15:23.47.715334]: data/scripts/gamelogic.lua(61,1)	LOAD FE
 [15:23.47.953401]: data/scripts/gamelogic.lua(65,1)	done
 [15:23.47.956326]: Reset() returning
+[15:24.44.529259]: Collecting garbage...
+[15:24.44.536857]: lua_gc took 0.01 seconds
+[15:24.44.545250]: lua_close took 0.01 seconds
+[15:24.44.546132]: ReleaseAll
+[15:24.44.546206]: ReleaseAll Finished
+[15:24.44.546464]: cGame::StartPlaying
+[15:24.44.549200]: LOADING LUA
+[15:24.44.549234]: DoLuaFile data/scripts/main.lua
+[15:24.44.549344]: DoLuaFile loading buffer data/scripts/main.lua
+[15:24.44.579730]: data/scripts/main.lua(115,1)	running main.lua
+
+[15:24.44.580621]: LOADING LUA SUCCESS
+[15:24.44.659377]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[15:24.44.660253]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[15:24.44.708944]: data/scripts/gamelogic.lua(67,1)	LOAD BE
+[15:24.46.167859]: data/scripts/gamelogic.lua(71,1)	done
+[15:24.46.701573]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
+[15:24.48.46967]: Reset() returning
+[15:31.54.509261]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:31.54.949713]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[15:39.08.894335]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:39.09.302306]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[15:39.32.640319]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[15:39.32.753233]: Collecting garbage...
+[15:39.32.889994]: lua_gc took 0.14 seconds
+[15:39.33.68507]: lua_close took 0.18 seconds
+[15:39.33.69077]: ReleaseAll
+[15:39.33.70965]: ReleaseAll Finished
+[15:39.33.71221]: cGame::StartPlaying
+[15:39.33.74482]: LOADING LUA
+[15:39.33.74518]: DoLuaFile data/scripts/main.lua
+[15:39.33.74621]: DoLuaFile loading buffer data/scripts/main.lua
+[15:39.33.105952]: data/scripts/main.lua(115,1)	running main.lua
+
+[15:39.33.106965]: LOADING LUA SUCCESS
+[15:39.33.184327]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[15:39.33.185264]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[15:39.33.185767]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[15:39.33.277438]: data/scripts/gamelogic.lua(65,1)	done
+[15:39.33.279966]: Reset() returning
+[15:39.37.131491]: Collecting garbage...
+[15:39.37.139764]: lua_gc took 0.01 seconds
+[15:39.37.148130]: lua_close took 0.01 seconds
+[15:39.37.148852]: ORPHANED UNKNOWN RESOURCES:
+[15:39.37.148864]: data/fonts/belisaplumilla100.zip - 2
+[15:39.37.148872]: data/fonts/belisaplumilla50.zip - 2
+[15:39.37.148879]: data/fonts/talkingfont.zip - 2
+[15:39.37.148886]: data/fonts/stint-ucr20.zip - 2
+[15:39.37.148895]: data/fonts/buttonfont.zip - 2
+[15:39.37.148918]: data/fonts/stint-ucr50.zip - 2
+[15:39.37.148925]: data/fonts/opensans50.zip - 2
+[15:39.37.183241]: ORPHANED UNKNOWN RESOURCES:
+[15:39.37.183276]: data/fonts/belisaplumilla100.zip - 1
+[15:39.37.183322]: data/fonts/belisaplumilla50.zip - 1
+[15:39.37.183366]: data/fonts/talkingfont.zip - 1
+[15:39.37.183412]: data/fonts/stint-ucr20.zip - 1
+[15:39.37.183456]: data/fonts/buttonfont.zip - 1
+[15:39.37.183467]: data/fonts/stint-ucr50.zip - 1
+[15:39.37.183509]: data/images/square.tex - 2
+[15:39.37.183554]: data/fonts/opensans50.zip - 1
+[15:39.37.270397]: HttpClient::ClientThread::Main() complete
+[15:39.37.270514]: Shutting down
