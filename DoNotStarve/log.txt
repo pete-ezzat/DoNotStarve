@@ -1,286 +1,430 @@
-[12:45.13.221181]: Starting up
-[12:45.13.221229]: Don't Starve: 78490
+[12:52.29.324562]: Starting up
+[12:52.29.324609]: Don't Starve: 78490
 Build Date: 2013-05-28_14-56-39
-[12:45.13.221623]: THREAD - started 'GAClient' (4141493056)
-[12:45.13.221683]: HttpClient::ClientThread::Main()
-[12:45.13.343533]: cGame::InitializeOnMainThread
-[12:45.13.343560]: WindowManager::Initialize
-[12:45.13.405205]: GLInfo
-[12:45.13.405251]: ~~~~~~
-[12:45.13.405265]: GL_VENDOR: nouveau
-[12:45.13.405276]: GL_RENDERER: Gallium 0.4 on NVA8
-[12:45.13.405284]: GL_VERSION: 3.0 Mesa 10.1.3
-[12:45.13.405291]: GL_SHADING_LANGUAGE_VERSION: 1.30
-[12:45.13.405301]: OpenGL 3.0 present, detecting extensions the new way
-[12:45.13.405524]: OpenGL extensions (185, 185):
-[12:45.13.405533]: GL_AMD_conservative_depth
-[12:45.13.405541]: GL_AMD_draw_buffers_blend
-[12:45.13.405547]: GL_AMD_shader_trinary_minmax
-[12:45.13.405553]: GL_ANGLE_texture_compression_dxt3
-[12:45.13.405559]: GL_ANGLE_texture_compression_dxt5
-[12:45.13.405566]: GL_APPLE_packed_pixels
-[12:45.13.405572]: GL_APPLE_vertex_array_object
-[12:45.13.405578]: GL_ARB_ES2_compatibility
-[12:45.13.405584]: GL_ARB_base_instance
-[12:45.13.405590]: GL_ARB_blend_func_extended
-[12:45.13.405596]: GL_ARB_clear_buffer_object
-[12:45.13.405602]: GL_ARB_color_buffer_float
-[12:45.13.405608]: GL_ARB_conservative_depth
-[12:45.13.405614]: GL_ARB_copy_buffer
-[12:45.13.405620]: GL_ARB_debug_output
-[12:45.13.405626]: GL_ARB_depth_buffer_float
-[12:45.13.405632]: GL_ARB_depth_clamp
-[12:45.13.405638]: GL_ARB_depth_texture
-[12:45.13.405644]: GL_ARB_draw_buffers
-[12:45.13.405650]: GL_ARB_draw_buffers_blend
-[12:45.13.405656]: GL_ARB_draw_elements_base_vertex
-[12:45.13.405662]: GL_ARB_draw_instanced
-[12:45.13.405668]: GL_ARB_explicit_attrib_location
-[12:45.13.405675]: GL_ARB_fragment_coord_conventions
-[12:45.13.405681]: GL_ARB_fragment_program
-[12:45.13.405687]: GL_ARB_fragment_program_shadow
-[12:45.13.405693]: GL_ARB_fragment_shader
-[12:45.13.405699]: GL_ARB_framebuffer_object
-[12:45.13.405705]: GL_ARB_framebuffer_sRGB
-[12:45.13.405711]: GL_ARB_get_program_binary
-[12:45.13.405717]: GL_ARB_half_float_pixel
-[12:45.13.405723]: GL_ARB_half_float_vertex
-[12:45.13.405729]: GL_ARB_instanced_arrays
-[12:45.13.405735]: GL_ARB_internalformat_query
-[12:45.13.405741]: GL_ARB_invalidate_subdata
-[12:45.13.405747]: GL_ARB_map_buffer_alignment
-[12:45.13.405754]: GL_ARB_map_buffer_range
-[12:45.13.405760]: GL_ARB_multisample
-[12:45.13.405766]: GL_ARB_multitexture
-[12:45.13.405772]: GL_ARB_occlusion_query
-[12:45.13.405778]: GL_ARB_occlusion_query2
-[12:45.13.405784]: GL_ARB_pixel_buffer_object
-[12:45.13.405790]: GL_ARB_point_parameters
-[12:45.13.405796]: GL_ARB_point_sprite
-[12:45.13.405802]: GL_ARB_provoking_vertex
-[12:45.13.405808]: GL_ARB_robustness
-[12:45.13.405814]: GL_ARB_sampler_objects
-[12:45.13.405820]: GL_ARB_seamless_cube_map
-[12:45.13.405826]: GL_ARB_shader_bit_encoding
-[12:45.13.405832]: GL_ARB_shader_objects
-[12:45.13.405838]: GL_ARB_shader_texture_lod
-[12:45.13.405844]: GL_ARB_shading_language_100
-[12:45.13.405850]: GL_ARB_shading_language_420pack
-[12:45.13.405856]: GL_ARB_shading_language_packing
-[12:45.13.405863]: GL_ARB_shadow
-[12:45.13.405869]: GL_ARB_sync
-[12:45.13.405875]: GL_ARB_texture_border_clamp
-[12:45.13.405881]: GL_ARB_texture_compression
-[12:45.13.405887]: GL_ARB_texture_compression_rgtc
-[12:45.13.405893]: GL_ARB_texture_cube_map
-[12:45.13.405899]: GL_ARB_texture_env_add
-[12:45.13.405905]: GL_ARB_texture_env_combine
-[12:45.13.405911]: GL_ARB_texture_env_crossbar
-[12:45.13.405917]: GL_ARB_texture_env_dot3
-[12:45.13.405923]: GL_ARB_texture_float
-[12:45.13.405929]: GL_ARB_texture_mirror_clamp_to_edge
-[12:45.13.405935]: GL_ARB_texture_mirrored_repeat
-[12:45.13.405941]: GL_ARB_texture_multisample
-[12:45.13.405947]: GL_ARB_texture_non_power_of_two
-[12:45.13.405954]: GL_ARB_texture_rectangle
-[12:45.13.405960]: GL_ARB_texture_rg
-[12:45.13.405966]: GL_ARB_texture_rgb10_a2ui
-[12:45.13.405972]: GL_ARB_texture_storage
-[12:45.13.405978]: GL_ARB_texture_storage_multisample
-[12:45.13.405984]: GL_ARB_texture_swizzle
-[12:45.13.405990]: GL_ARB_timer_query
-[12:45.13.405997]: GL_ARB_transform_feedback2
-[12:45.13.406002]: GL_ARB_transform_feedback3
-[12:45.13.406022]: GL_ARB_transform_feedback_instanced
-[12:45.13.406029]: GL_ARB_transpose_matrix
-[12:45.13.406035]: GL_ARB_uniform_buffer_object
-[12:45.13.406041]: GL_ARB_vertex_array_bgra
-[12:45.13.406047]: GL_ARB_vertex_array_object
-[12:45.13.406053]: GL_ARB_vertex_attrib_binding
-[12:45.13.406059]: GL_ARB_vertex_buffer_object
-[12:45.13.406065]: GL_ARB_vertex_program
-[12:45.13.406071]: GL_ARB_vertex_shader
-[12:45.13.406077]: GL_ARB_vertex_type_2_10_10_10_rev
-[12:45.13.406083]: GL_ARB_window_pos
-[12:45.13.406089]: GL_ATI_blend_equation_separate
-[12:45.13.406096]: GL_ATI_draw_buffers
-[12:45.13.406102]: GL_ATI_separate_stencil
-[12:45.13.406108]: GL_ATI_texture_compression_3dc
-[12:45.13.406114]: GL_ATI_texture_env_combine3
-[12:45.13.406120]: GL_ATI_texture_float
-[12:45.13.406126]: GL_ATI_texture_mirror_once
-[12:45.13.406132]: GL_EXT_abgr
-[12:45.13.406137]: GL_EXT_bgra
-[12:45.13.406143]: GL_EXT_blend_color
-[12:45.13.406149]: GL_EXT_blend_equation_separate
-[12:45.13.406155]: GL_EXT_blend_func_separate
-[12:45.13.406161]: GL_EXT_blend_minmax
-[12:45.13.406167]: GL_EXT_blend_subtract
-[12:45.13.406173]: GL_EXT_compiled_vertex_array
-[12:45.13.406179]: GL_EXT_copy_texture
-[12:45.13.406185]: GL_EXT_draw_buffers2
-[12:45.13.406191]: GL_EXT_draw_instanced
-[12:45.13.406197]: GL_EXT_draw_range_elements
-[12:45.13.406203]: GL_EXT_fog_coord
-[12:45.13.406209]: GL_EXT_framebuffer_blit
-[12:45.13.406215]: GL_EXT_framebuffer_multisample
-[12:45.13.406221]: GL_EXT_framebuffer_multisample_blit_scaled
-[12:45.13.406227]: GL_EXT_framebuffer_object
-[12:45.13.406233]: GL_EXT_framebuffer_sRGB
-[12:45.13.406239]: GL_EXT_gpu_program_parameters
-[12:45.13.406245]: GL_EXT_multi_draw_arrays
-[12:45.13.406252]: GL_EXT_packed_depth_stencil
-[12:45.13.406257]: GL_EXT_packed_float
-[12:45.13.406263]: GL_EXT_packed_pixels
-[12:45.13.406269]: GL_EXT_pixel_buffer_object
-[12:45.13.406275]: GL_EXT_point_parameters
-[12:45.13.406281]: GL_EXT_polygon_offset
-[12:45.13.406287]: GL_EXT_provoking_vertex
-[12:45.13.406293]: GL_EXT_rescale_normal
-[12:45.13.406299]: GL_EXT_secondary_color
-[12:45.13.406305]: GL_EXT_separate_specular_color
-[12:45.13.406311]: GL_EXT_shadow_funcs
-[12:45.13.406317]: GL_EXT_stencil_two_side
-[12:45.13.406323]: GL_EXT_stencil_wrap
-[12:45.13.406329]: GL_EXT_subtexture
-[12:45.13.406335]: GL_EXT_texture
-[12:45.13.406341]: GL_EXT_texture3D
-[12:45.13.406347]: GL_EXT_texture_array
-[12:45.13.406353]: GL_EXT_texture_compression_dxt1
-[12:45.13.406359]: GL_EXT_texture_compression_latc
-[12:45.13.406365]: GL_EXT_texture_compression_rgtc
-[12:45.13.406371]: GL_EXT_texture_compression_s3tc
-[12:45.13.406377]: GL_EXT_texture_cube_map
-[12:45.13.406383]: GL_EXT_texture_edge_clamp
-[12:45.13.406389]: GL_EXT_texture_env_add
-[12:45.13.406395]: GL_EXT_texture_env_combine
-[12:45.13.406401]: GL_EXT_texture_env_dot3
-[12:45.13.406407]: GL_EXT_texture_filter_anisotropic
-[12:45.13.406413]: GL_EXT_texture_integer
-[12:45.13.406419]: GL_EXT_texture_lod_bias
-[12:45.13.406425]: GL_EXT_texture_mirror_clamp
-[12:45.13.406431]: GL_EXT_texture_object
-[12:45.13.406437]: GL_EXT_texture_rectangle
-[12:45.13.406443]: GL_EXT_texture_sRGB
-[12:45.13.406449]: GL_EXT_texture_sRGB_decode
-[12:45.13.406455]: GL_EXT_texture_shared_exponent
-[12:45.13.406461]: GL_EXT_texture_snorm
-[12:45.13.406467]: GL_EXT_texture_swizzle
-[12:45.13.406473]: GL_EXT_timer_query
-[12:45.13.406479]: GL_EXT_transform_feedback
-[12:45.13.406485]: GL_EXT_vertex_array
-[12:45.13.406491]: GL_EXT_vertex_array_bgra
-[12:45.13.406497]: GL_IBM_multimode_draw_arrays
-[12:45.13.406503]: GL_IBM_rasterpos_clip
-[12:45.13.406509]: GL_IBM_texture_mirrored_repeat
-[12:45.13.406516]: GL_INGR_blend_func_separate
-[12:45.13.406522]: GL_KHR_debug
-[12:45.13.406528]: GL_MESA_pack_invert
-[12:45.13.406534]: GL_MESA_texture_signed_rgba
-[12:45.13.406540]: GL_MESA_window_pos
-[12:45.13.406545]: GL_NV_blend_square
-[12:45.13.406551]: GL_NV_conditional_render
-[12:45.13.406557]: GL_NV_depth_clamp
-[12:45.13.406563]: GL_NV_fog_distance
-[12:45.13.406569]: GL_NV_light_max_exponent
-[12:45.13.406575]: GL_NV_packed_depth_stencil
-[12:45.13.406581]: GL_NV_primitive_restart
-[12:45.13.406592]: GL_NV_texgen_reflection
-[12:45.13.406598]: GL_NV_texture_barrier
-[12:45.13.406604]: GL_NV_texture_env_combine4
-[12:45.13.406610]: GL_NV_texture_rectangle
-[12:45.13.406616]: GL_NV_vdpau_interop
-[12:45.13.406622]: GL_OES_EGL_image
-[12:45.13.406628]: GL_OES_read_format
-[12:45.13.406634]: GL_S3_s3tc
-[12:45.13.406640]: GL_SGIS_generate_mipmap
-[12:45.13.406646]: GL_SGIS_texture_border_clamp
-[12:45.13.406652]: GL_SGIS_texture_edge_clamp
-[12:45.13.406658]: GL_SGIS_texture_lod
-[12:45.13.406664]: GL_SUN_multi_draw_arrays
-[12:45.13.406675]: GL_MAX_TEXTURE_SIZE = 8192
-[12:45.13.406682]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[12:45.13.406690]: GL_MAX_RENDERBUFFER_SIZE = 8192
-[12:45.13.406696]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
-[12:45.13.406703]: GL_MAX_VARYING_VECTORS = 15
-[12:45.13.406710]: GL_MAX_VERTEX_ATTRIBS = 16
-[12:45.13.406717]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
-[12:45.13.406723]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-[12:45.13.406730]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
-[12:45.13.434112]: cDontStarveGame::DoGameSpecificInitialize()
-[12:45.13.441492]: cGame::StartPlaying
-[12:45.13.445045]: LOADING LUA
-[12:45.13.445080]: DoLuaFile data/scripts/main.lua
-[12:45.13.445161]: DoLuaFile loading buffer data/scripts/main.lua
-[12:45.13.478409]: data/scripts/main.lua(115,1)	running main.lua
+[12:52.29.324870]: THREAD - started 'GAClient' (4141095744)
+[12:52.29.324930]: HttpClient::ClientThread::Main()
+[12:52.29.446982]: cGame::InitializeOnMainThread
+[12:52.29.447015]: WindowManager::Initialize
+[12:52.29.510772]: GLInfo
+[12:52.29.510808]: ~~~~~~
+[12:52.29.510822]: GL_VENDOR: nouveau
+[12:52.29.510836]: GL_RENDERER: Gallium 0.4 on NVA8
+[12:52.29.510847]: GL_VERSION: 3.0 Mesa 10.1.3
+[12:52.29.510857]: GL_SHADING_LANGUAGE_VERSION: 1.30
+[12:52.29.510872]: OpenGL 3.0 present, detecting extensions the new way
+[12:52.29.511098]: OpenGL extensions (185, 185):
+[12:52.29.511107]: GL_AMD_conservative_depth
+[12:52.29.511115]: GL_AMD_draw_buffers_blend
+[12:52.29.511121]: GL_AMD_shader_trinary_minmax
+[12:52.29.511127]: GL_ANGLE_texture_compression_dxt3
+[12:52.29.511133]: GL_ANGLE_texture_compression_dxt5
+[12:52.29.511140]: GL_APPLE_packed_pixels
+[12:52.29.511146]: GL_APPLE_vertex_array_object
+[12:52.29.511152]: GL_ARB_ES2_compatibility
+[12:52.29.511158]: GL_ARB_base_instance
+[12:52.29.511164]: GL_ARB_blend_func_extended
+[12:52.29.511170]: GL_ARB_clear_buffer_object
+[12:52.29.511176]: GL_ARB_color_buffer_float
+[12:52.29.511182]: GL_ARB_conservative_depth
+[12:52.29.511188]: GL_ARB_copy_buffer
+[12:52.29.511194]: GL_ARB_debug_output
+[12:52.29.511200]: GL_ARB_depth_buffer_float
+[12:52.29.511206]: GL_ARB_depth_clamp
+[12:52.29.511212]: GL_ARB_depth_texture
+[12:52.29.511218]: GL_ARB_draw_buffers
+[12:52.29.511224]: GL_ARB_draw_buffers_blend
+[12:52.29.511230]: GL_ARB_draw_elements_base_vertex
+[12:52.29.511236]: GL_ARB_draw_instanced
+[12:52.29.511242]: GL_ARB_explicit_attrib_location
+[12:52.29.511249]: GL_ARB_fragment_coord_conventions
+[12:52.29.511255]: GL_ARB_fragment_program
+[12:52.29.511261]: GL_ARB_fragment_program_shadow
+[12:52.29.511267]: GL_ARB_fragment_shader
+[12:52.29.511273]: GL_ARB_framebuffer_object
+[12:52.29.511279]: GL_ARB_framebuffer_sRGB
+[12:52.29.511285]: GL_ARB_get_program_binary
+[12:52.29.511291]: GL_ARB_half_float_pixel
+[12:52.29.511297]: GL_ARB_half_float_vertex
+[12:52.29.511303]: GL_ARB_instanced_arrays
+[12:52.29.511309]: GL_ARB_internalformat_query
+[12:52.29.511315]: GL_ARB_invalidate_subdata
+[12:52.29.511321]: GL_ARB_map_buffer_alignment
+[12:52.29.511327]: GL_ARB_map_buffer_range
+[12:52.29.511333]: GL_ARB_multisample
+[12:52.29.511339]: GL_ARB_multitexture
+[12:52.29.511345]: GL_ARB_occlusion_query
+[12:52.29.511351]: GL_ARB_occlusion_query2
+[12:52.29.511357]: GL_ARB_pixel_buffer_object
+[12:52.29.511363]: GL_ARB_point_parameters
+[12:52.29.511369]: GL_ARB_point_sprite
+[12:52.29.511376]: GL_ARB_provoking_vertex
+[12:52.29.511382]: GL_ARB_robustness
+[12:52.29.511388]: GL_ARB_sampler_objects
+[12:52.29.511394]: GL_ARB_seamless_cube_map
+[12:52.29.511400]: GL_ARB_shader_bit_encoding
+[12:52.29.511406]: GL_ARB_shader_objects
+[12:52.29.511412]: GL_ARB_shader_texture_lod
+[12:52.29.511418]: GL_ARB_shading_language_100
+[12:52.29.511424]: GL_ARB_shading_language_420pack
+[12:52.29.511431]: GL_ARB_shading_language_packing
+[12:52.29.511437]: GL_ARB_shadow
+[12:52.29.511443]: GL_ARB_sync
+[12:52.29.511449]: GL_ARB_texture_border_clamp
+[12:52.29.511455]: GL_ARB_texture_compression
+[12:52.29.511461]: GL_ARB_texture_compression_rgtc
+[12:52.29.511467]: GL_ARB_texture_cube_map
+[12:52.29.511473]: GL_ARB_texture_env_add
+[12:52.29.511479]: GL_ARB_texture_env_combine
+[12:52.29.511485]: GL_ARB_texture_env_crossbar
+[12:52.29.511491]: GL_ARB_texture_env_dot3
+[12:52.29.511497]: GL_ARB_texture_float
+[12:52.29.511503]: GL_ARB_texture_mirror_clamp_to_edge
+[12:52.29.511509]: GL_ARB_texture_mirrored_repeat
+[12:52.29.511516]: GL_ARB_texture_multisample
+[12:52.29.511522]: GL_ARB_texture_non_power_of_two
+[12:52.29.511528]: GL_ARB_texture_rectangle
+[12:52.29.511534]: GL_ARB_texture_rg
+[12:52.29.511540]: GL_ARB_texture_rgb10_a2ui
+[12:52.29.511546]: GL_ARB_texture_storage
+[12:52.29.511552]: GL_ARB_texture_storage_multisample
+[12:52.29.511558]: GL_ARB_texture_swizzle
+[12:52.29.511564]: GL_ARB_timer_query
+[12:52.29.511570]: GL_ARB_transform_feedback2
+[12:52.29.511576]: GL_ARB_transform_feedback3
+[12:52.29.511625]: GL_ARB_transform_feedback_instanced
+[12:52.29.511634]: GL_ARB_transpose_matrix
+[12:52.29.511640]: GL_ARB_uniform_buffer_object
+[12:52.29.511646]: GL_ARB_vertex_array_bgra
+[12:52.29.511652]: GL_ARB_vertex_array_object
+[12:52.29.511658]: GL_ARB_vertex_attrib_binding
+[12:52.29.511664]: GL_ARB_vertex_buffer_object
+[12:52.29.511669]: GL_ARB_vertex_program
+[12:52.29.511675]: GL_ARB_vertex_shader
+[12:52.29.511682]: GL_ARB_vertex_type_2_10_10_10_rev
+[12:52.29.511688]: GL_ARB_window_pos
+[12:52.29.511694]: GL_ATI_blend_equation_separate
+[12:52.29.511700]: GL_ATI_draw_buffers
+[12:52.29.511706]: GL_ATI_separate_stencil
+[12:52.29.511712]: GL_ATI_texture_compression_3dc
+[12:52.29.511718]: GL_ATI_texture_env_combine3
+[12:52.29.511725]: GL_ATI_texture_float
+[12:52.29.511731]: GL_ATI_texture_mirror_once
+[12:52.29.511737]: GL_EXT_abgr
+[12:52.29.511743]: GL_EXT_bgra
+[12:52.29.511749]: GL_EXT_blend_color
+[12:52.29.511755]: GL_EXT_blend_equation_separate
+[12:52.29.511761]: GL_EXT_blend_func_separate
+[12:52.29.511767]: GL_EXT_blend_minmax
+[12:52.29.511773]: GL_EXT_blend_subtract
+[12:52.29.511780]: GL_EXT_compiled_vertex_array
+[12:52.29.511786]: GL_EXT_copy_texture
+[12:52.29.511792]: GL_EXT_draw_buffers2
+[12:52.29.511798]: GL_EXT_draw_instanced
+[12:52.29.511804]: GL_EXT_draw_range_elements
+[12:52.29.511810]: GL_EXT_fog_coord
+[12:52.29.511816]: GL_EXT_framebuffer_blit
+[12:52.29.511822]: GL_EXT_framebuffer_multisample
+[12:52.29.511828]: GL_EXT_framebuffer_multisample_blit_scaled
+[12:52.29.511835]: GL_EXT_framebuffer_object
+[12:52.29.511841]: GL_EXT_framebuffer_sRGB
+[12:52.29.511847]: GL_EXT_gpu_program_parameters
+[12:52.29.511853]: GL_EXT_multi_draw_arrays
+[12:52.29.511859]: GL_EXT_packed_depth_stencil
+[12:52.29.511865]: GL_EXT_packed_float
+[12:52.29.511871]: GL_EXT_packed_pixels
+[12:52.29.511877]: GL_EXT_pixel_buffer_object
+[12:52.29.511884]: GL_EXT_point_parameters
+[12:52.29.511890]: GL_EXT_polygon_offset
+[12:52.29.511896]: GL_EXT_provoking_vertex
+[12:52.29.511902]: GL_EXT_rescale_normal
+[12:52.29.511908]: GL_EXT_secondary_color
+[12:52.29.511914]: GL_EXT_separate_specular_color
+[12:52.29.511920]: GL_EXT_shadow_funcs
+[12:52.29.511926]: GL_EXT_stencil_two_side
+[12:52.29.511932]: GL_EXT_stencil_wrap
+[12:52.29.511944]: GL_EXT_subtexture
+[12:52.29.511954]: GL_EXT_texture
+[12:52.29.511962]: GL_EXT_texture3D
+[12:52.29.511969]: GL_EXT_texture_array
+[12:52.29.511979]: GL_EXT_texture_compression_dxt1
+[12:52.29.511986]: GL_EXT_texture_compression_latc
+[12:52.29.511992]: GL_EXT_texture_compression_rgtc
+[12:52.29.511999]: GL_EXT_texture_compression_s3tc
+[12:52.29.512005]: GL_EXT_texture_cube_map
+[12:52.29.512011]: GL_EXT_texture_edge_clamp
+[12:52.29.512017]: GL_EXT_texture_env_add
+[12:52.29.512023]: GL_EXT_texture_env_combine
+[12:52.29.512029]: GL_EXT_texture_env_dot3
+[12:52.29.512035]: GL_EXT_texture_filter_anisotropic
+[12:52.29.512041]: GL_EXT_texture_integer
+[12:52.29.512047]: GL_EXT_texture_lod_bias
+[12:52.29.512053]: GL_EXT_texture_mirror_clamp
+[12:52.29.512059]: GL_EXT_texture_object
+[12:52.29.512065]: GL_EXT_texture_rectangle
+[12:52.29.512072]: GL_EXT_texture_sRGB
+[12:52.29.512078]: GL_EXT_texture_sRGB_decode
+[12:52.29.512084]: GL_EXT_texture_shared_exponent
+[12:52.29.512090]: GL_EXT_texture_snorm
+[12:52.29.512096]: GL_EXT_texture_swizzle
+[12:52.29.512102]: GL_EXT_timer_query
+[12:52.29.512108]: GL_EXT_transform_feedback
+[12:52.29.512114]: GL_EXT_vertex_array
+[12:52.29.512120]: GL_EXT_vertex_array_bgra
+[12:52.29.512126]: GL_IBM_multimode_draw_arrays
+[12:52.29.512132]: GL_IBM_rasterpos_clip
+[12:52.29.512138]: GL_IBM_texture_mirrored_repeat
+[12:52.29.512145]: GL_INGR_blend_func_separate
+[12:52.29.512151]: GL_KHR_debug
+[12:52.29.512157]: GL_MESA_pack_invert
+[12:52.29.512163]: GL_MESA_texture_signed_rgba
+[12:52.29.512169]: GL_MESA_window_pos
+[12:52.29.512175]: GL_NV_blend_square
+[12:52.29.512181]: GL_NV_conditional_render
+[12:52.29.512187]: GL_NV_depth_clamp
+[12:52.29.512193]: GL_NV_fog_distance
+[12:52.29.512199]: GL_NV_light_max_exponent
+[12:52.29.512205]: GL_NV_packed_depth_stencil
+[12:52.29.512211]: GL_NV_primitive_restart
+[12:52.29.512224]: GL_NV_texgen_reflection
+[12:52.29.512230]: GL_NV_texture_barrier
+[12:52.29.512236]: GL_NV_texture_env_combine4
+[12:52.29.512242]: GL_NV_texture_rectangle
+[12:52.29.512248]: GL_NV_vdpau_interop
+[12:52.29.512254]: GL_OES_EGL_image
+[12:52.29.512260]: GL_OES_read_format
+[12:52.29.512266]: GL_S3_s3tc
+[12:52.29.512272]: GL_SGIS_generate_mipmap
+[12:52.29.512278]: GL_SGIS_texture_border_clamp
+[12:52.29.512284]: GL_SGIS_texture_edge_clamp
+[12:52.29.512290]: GL_SGIS_texture_lod
+[12:52.29.512296]: GL_SUN_multi_draw_arrays
+[12:52.29.512308]: GL_MAX_TEXTURE_SIZE = 8192
+[12:52.29.512315]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[12:52.29.512322]: GL_MAX_RENDERBUFFER_SIZE = 8192
+[12:52.29.512329]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
+[12:52.29.512336]: GL_MAX_VARYING_VECTORS = 15
+[12:52.29.512342]: GL_MAX_VERTEX_ATTRIBS = 16
+[12:52.29.512349]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
+[12:52.29.512356]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
+[12:52.29.512363]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
+[12:52.29.538764]: cDontStarveGame::DoGameSpecificInitialize()
+[12:52.29.546589]: cGame::StartPlaying
+[12:52.29.549730]: LOADING LUA
+[12:52.29.549766]: DoLuaFile data/scripts/main.lua
+[12:52.29.549851]: DoLuaFile loading buffer data/scripts/main.lua
+[12:52.29.582784]: data/scripts/main.lua(115,1)	running main.lua
 
-[12:45.13.503728]: LOADING LUA SUCCESS
-[12:45.13.587319]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[12:45.13.588331]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[12:45.13.588847]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[12:45.13.696387]: data/scripts/gamelogic.lua(65,1)	done
-[12:45.13.700547]: Reset() returning
-[12:45.17.188717]: Collecting garbage...
-[12:45.17.196328]: lua_gc took 0.01 seconds
-[12:45.17.206066]: lua_close took 0.01 seconds
-[12:45.17.206512]: ReleaseAll
-[12:45.17.206572]: ReleaseAll Finished
-[12:45.17.206826]: cGame::StartPlaying
-[12:45.17.209669]: LOADING LUA
-[12:45.17.209705]: DoLuaFile data/scripts/main.lua
-[12:45.17.209813]: DoLuaFile loading buffer data/scripts/main.lua
-[12:45.17.241242]: data/scripts/main.lua(115,1)	running main.lua
+[12:52.29.608138]: LOADING LUA SUCCESS
+[12:52.29.690492]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[12:52.29.691417]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[12:52.29.692000]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[12:52.29.798562]: data/scripts/gamelogic.lua(65,1)	done
+[12:52.29.801408]: Reset() returning
+[12:52.33.441435]: Collecting garbage...
+[12:52.33.451895]: lua_gc took 0.01 seconds
+[12:52.33.460988]: lua_close took 0.01 seconds
+[12:52.33.461285]: ReleaseAll
+[12:52.33.461341]: ReleaseAll Finished
+[12:52.33.461599]: cGame::StartPlaying
+[12:52.33.464452]: LOADING LUA
+[12:52.33.464487]: DoLuaFile data/scripts/main.lua
+[12:52.33.464588]: DoLuaFile loading buffer data/scripts/main.lua
+[12:52.33.495520]: data/scripts/main.lua(115,1)	running main.lua
 
-[12:45.17.242194]: LOADING LUA SUCCESS
-[12:45.17.322130]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[12:45.17.323052]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[12:45.17.378461]: data/scripts/gamelogic.lua(67,1)	LOAD BE
-[12:45.18.97344]: data/scripts/gamelogic.lua(71,1)	done
-[12:45.18.561979]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
-[12:45.19.853668]: Reset() returning
-[12:48.19.496791]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[12:48.19.888072]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[12:51.55.50679]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[12:51.55.166894]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[12:51.55.520264]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[12:52.09.823345]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[12:52.10.155963]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[12:52.10.215118]: Collecting garbage...
-[12:52.10.394807]: lua_gc took 0.18 seconds
-[12:52.10.610824]: lua_close took 0.22 seconds
-[12:52.10.611271]: ReleaseAll
-[12:52.10.613470]: ReleaseAll Finished
-[12:52.10.613729]: cGame::StartPlaying
-[12:52.10.617235]: LOADING LUA
-[12:52.10.617275]: DoLuaFile data/scripts/main.lua
-[12:52.10.617403]: DoLuaFile loading buffer data/scripts/main.lua
-[12:52.10.651217]: data/scripts/main.lua(115,1)	running main.lua
+[12:52.33.496502]: LOADING LUA SUCCESS
+[12:52.33.575194]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[12:52.33.576105]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[12:52.33.625466]: data/scripts/gamelogic.lua(67,1)	LOAD BE
+[12:52.34.348225]: data/scripts/gamelogic.lua(71,1)	done
+[12:52.34.836095]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
+[12:52.36.106051]: Reset() returning
+[12:56.49.824181]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[12:56.49.935651]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
+[12:56.50.204172]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[12:59.25.191003]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[13:00.15.161056]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.161573]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.162302]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.313829]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.371702]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.419010]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.603474]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.15.608415]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.102330]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.102542]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.416668]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.587420]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.710271]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.765362]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.16.913474]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.17.128322]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.17.247956]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.17.617746]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.17.776883]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.18.354255]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.18.355224]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.18.977877]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.172974]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.173378]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.406927]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.454231]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.454495]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.507673]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.846357]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.19.894327]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.109069]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.140786]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.346805]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.443889]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.449857]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.614630]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.20.707035]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.21.511323]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.21.838606]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.21.991668]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.54467]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.189603]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.366719]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.504341]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.601448]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.602287]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.609535]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.23.814106]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.24.266929]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.25.171460]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.25.288842]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.25.774379]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.26.72567]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.26.72827]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.26.250450]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.26.700840]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.104001]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.133346]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.133573]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.133837]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.134283]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.297477]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.297694]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.380014]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.462140]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.935279]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.27.939777]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.28.22820]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.28.112439]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.28.399557]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.31.523747]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.31.568154]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.31.957564]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.31.957776]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.32.377396]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.32.377630]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.32.587364]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.32.657183]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.32.725062]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.32.827444]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.98161]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.364179]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.524506]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.566567]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.654693]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.778797]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.33.839657]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.34.734002]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.34.896861]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.34.897084]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.35.376879]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.35.377254]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.36.68007]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.36.198962]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.36.710293]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.36.710632]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.37.134453]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.37.134677]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.37.832107]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.38.98744]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.38.178702]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.38.312618]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.38.313217]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.38.497739]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.38.608438]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.39.9174]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.39.35960]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.39.142929]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.39.250556]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.39.251242]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.39.278400]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.40.41536]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.40.337198]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.40.449125]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.40.986602]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.41.405383]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.42.135487]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.42.264378]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.42.264577]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.42.418316]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.42.418563]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.43.500224]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.43.500482]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.43.554103]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.43.580457]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.43.633727]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.48.313629]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.48.652806]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.48.704064]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.49.143175]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.49.858062]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.49.858256]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.51.587444]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.53.203227]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.53.203424]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.54.717278]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.54.743909]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.54.744191]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.55.607326]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.56.282936]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:00.57.497224]: FMOD Error: Can't play event dontstarve/common/forestfire: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[13:02.26.424715]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[13:04.58.267000]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[13:04.58.375257]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
+[13:04.58.640889]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[13:05.06.698932]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
+[13:05.07.10546]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[13:05.07.65081]: Collecting garbage...
+[13:05.07.210074]: lua_gc took 0.14 seconds
+[13:05.07.379168]: lua_close took 0.17 seconds
+[13:05.07.379609]: ReleaseAll
+[13:05.07.381614]: ReleaseAll Finished
+[13:05.07.381882]: cGame::StartPlaying
+[13:05.07.385279]: LOADING LUA
+[13:05.07.385316]: DoLuaFile data/scripts/main.lua
+[13:05.07.385431]: DoLuaFile loading buffer data/scripts/main.lua
+[13:05.07.419113]: data/scripts/main.lua(115,1)	running main.lua
 
-[12:52.10.652352]: LOADING LUA SUCCESS
-[12:52.10.735104]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[12:52.10.736243]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[12:52.10.736764]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[12:52.10.834037]: data/scripts/gamelogic.lua(65,1)	done
-[12:52.10.836711]: Reset() returning
-[12:52.13.85069]: Collecting garbage...
-[12:52.13.94088]: lua_gc took 0.01 seconds
-[12:52.13.103325]: lua_close took 0.01 seconds
-[12:52.13.104043]: ORPHANED UNKNOWN RESOURCES:
-[12:52.13.104055]: data/fonts/belisaplumilla100.zip - 2
-[12:52.13.104063]: data/fonts/belisaplumilla50.zip - 2
-[12:52.13.104085]: data/fonts/talkingfont.zip - 2
-[12:52.13.104092]: data/fonts/stint-ucr20.zip - 2
-[12:52.13.104099]: data/fonts/buttonfont.zip - 2
-[12:52.13.104107]: data/fonts/stint-ucr50.zip - 2
-[12:52.13.104114]: data/fonts/opensans50.zip - 2
-[12:52.13.139752]: ORPHANED UNKNOWN RESOURCES:
-[12:52.13.139787]: data/fonts/belisaplumilla100.zip - 1
-[12:52.13.139836]: data/fonts/belisaplumilla50.zip - 1
-[12:52.13.139885]: data/fonts/talkingfont.zip - 1
-[12:52.13.140074]: data/fonts/stint-ucr20.zip - 1
-[12:52.13.140125]: data/fonts/buttonfont.zip - 1
-[12:52.13.140186]: data/fonts/stint-ucr50.zip - 1
-[12:52.13.140254]: data/images/square.tex - 2
-[12:52.13.140300]: data/fonts/opensans50.zip - 1
-[12:52.13.226240]: HttpClient::ClientThread::Main() complete
-[12:52.13.226347]: Shutting down
+[13:05.07.420156]: LOADING LUA SUCCESS
+[13:05.07.500246]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[13:05.07.501189]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[13:05.07.501753]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[13:05.07.598847]: data/scripts/gamelogic.lua(65,1)	done
+[13:05.07.601403]: Reset() returning
+[13:05.12.254484]: Collecting garbage...
+[13:05.12.262891]: lua_gc took 0.01 seconds
+[13:05.12.271655]: lua_close took 0.01 seconds
+[13:05.12.272399]: ORPHANED UNKNOWN RESOURCES:
+[13:05.12.272410]: data/fonts/belisaplumilla100.zip - 2
+[13:05.12.272418]: data/fonts/belisaplumilla50.zip - 2
+[13:05.12.272426]: data/fonts/talkingfont.zip - 2
+[13:05.12.272433]: data/fonts/stint-ucr20.zip - 2
+[13:05.12.272442]: data/fonts/buttonfont.zip - 2
+[13:05.12.272449]: data/fonts/stint-ucr50.zip - 2
+[13:05.12.272456]: data/fonts/opensans50.zip - 2
+[13:05.12.307752]: ORPHANED UNKNOWN RESOURCES:
+[13:05.12.307791]: data/fonts/belisaplumilla100.zip - 1
+[13:05.12.307840]: data/fonts/belisaplumilla50.zip - 1
+[13:05.12.307883]: data/fonts/talkingfont.zip - 1
+[13:05.12.307932]: data/fonts/stint-ucr20.zip - 1
+[13:05.12.307979]: data/fonts/buttonfont.zip - 1
+[13:05.12.307991]: data/fonts/stint-ucr50.zip - 1
+[13:05.12.308033]: data/images/square.tex - 2
+[13:05.12.308080]: data/fonts/opensans50.zip - 1
+[13:05.12.370183]: HttpClient::ClientThread::Main() complete
+[13:05.12.370339]: Shutting down
