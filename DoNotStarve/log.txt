@@ -1,284 +1,284 @@
-[14:28.36.815123]: Starting up
-[14:28.36.815171]: Don't Starve: 78490
+[14:37.35.577402]: Starting up
+[14:37.35.577451]: Don't Starve: 78490
 Build Date: 2013-05-28_14-56-39
-[14:28.36.815399]: THREAD - started 'GAClient' (4140735296)
-[14:28.36.815434]: HttpClient::ClientThread::Main()
-[14:28.36.940069]: cGame::InitializeOnMainThread
-[14:28.36.940109]: WindowManager::Initialize
-[14:28.36.992515]: GLInfo
-[14:28.36.992562]: ~~~~~~
-[14:28.36.992580]: GL_VENDOR: nouveau
-[14:28.36.992596]: GL_RENDERER: Gallium 0.4 on NVA8
-[14:28.36.992607]: GL_VERSION: 3.0 Mesa 10.1.3
-[14:28.36.992618]: GL_SHADING_LANGUAGE_VERSION: 1.30
-[14:28.36.992634]: OpenGL 3.0 present, detecting extensions the new way
-[14:28.36.992927]: OpenGL extensions (185, 185):
-[14:28.36.992944]: GL_AMD_conservative_depth
-[14:28.36.992958]: GL_AMD_draw_buffers_blend
-[14:28.36.992967]: GL_AMD_shader_trinary_minmax
-[14:28.36.992976]: GL_ANGLE_texture_compression_dxt3
-[14:28.36.992985]: GL_ANGLE_texture_compression_dxt5
-[14:28.36.992994]: GL_APPLE_packed_pixels
-[14:28.36.993003]: GL_APPLE_vertex_array_object
-[14:28.36.993012]: GL_ARB_ES2_compatibility
-[14:28.36.993024]: GL_ARB_base_instance
-[14:28.36.993034]: GL_ARB_blend_func_extended
-[14:28.36.993043]: GL_ARB_clear_buffer_object
-[14:28.36.993052]: GL_ARB_color_buffer_float
-[14:28.36.993060]: GL_ARB_conservative_depth
-[14:28.36.993070]: GL_ARB_copy_buffer
-[14:28.36.993078]: GL_ARB_debug_output
-[14:28.36.993087]: GL_ARB_depth_buffer_float
-[14:28.36.993096]: GL_ARB_depth_clamp
-[14:28.36.993105]: GL_ARB_depth_texture
-[14:28.36.993115]: GL_ARB_draw_buffers
-[14:28.36.993124]: GL_ARB_draw_buffers_blend
-[14:28.36.993133]: GL_ARB_draw_elements_base_vertex
-[14:28.36.993142]: GL_ARB_draw_instanced
-[14:28.36.993150]: GL_ARB_explicit_attrib_location
-[14:28.36.993160]: GL_ARB_fragment_coord_conventions
-[14:28.36.993169]: GL_ARB_fragment_program
-[14:28.36.993177]: GL_ARB_fragment_program_shadow
-[14:28.36.993188]: GL_ARB_fragment_shader
-[14:28.36.993199]: GL_ARB_framebuffer_object
-[14:28.36.993211]: GL_ARB_framebuffer_sRGB
-[14:28.36.993221]: GL_ARB_get_program_binary
-[14:28.36.993231]: GL_ARB_half_float_pixel
-[14:28.36.993241]: GL_ARB_half_float_vertex
-[14:28.36.993250]: GL_ARB_instanced_arrays
-[14:28.36.993260]: GL_ARB_internalformat_query
-[14:28.36.993269]: GL_ARB_invalidate_subdata
-[14:28.36.993278]: GL_ARB_map_buffer_alignment
-[14:28.36.993287]: GL_ARB_map_buffer_range
-[14:28.36.993295]: GL_ARB_multisample
-[14:28.36.993304]: GL_ARB_multitexture
-[14:28.36.993312]: GL_ARB_occlusion_query
-[14:28.36.993321]: GL_ARB_occlusion_query2
-[14:28.36.993329]: GL_ARB_pixel_buffer_object
-[14:28.36.993338]: GL_ARB_point_parameters
-[14:28.36.993347]: GL_ARB_point_sprite
-[14:28.36.993356]: GL_ARB_provoking_vertex
-[14:28.36.993366]: GL_ARB_robustness
-[14:28.36.993375]: GL_ARB_sampler_objects
-[14:28.36.993385]: GL_ARB_seamless_cube_map
-[14:28.36.993395]: GL_ARB_shader_bit_encoding
-[14:28.36.993405]: GL_ARB_shader_objects
-[14:28.36.993414]: GL_ARB_shader_texture_lod
-[14:28.36.993424]: GL_ARB_shading_language_100
-[14:28.36.993434]: GL_ARB_shading_language_420pack
-[14:28.36.993444]: GL_ARB_shading_language_packing
-[14:28.36.993454]: GL_ARB_shadow
-[14:28.36.993464]: GL_ARB_sync
-[14:28.36.993473]: GL_ARB_texture_border_clamp
-[14:28.36.993482]: GL_ARB_texture_compression
-[14:28.36.993492]: GL_ARB_texture_compression_rgtc
-[14:28.36.993503]: GL_ARB_texture_cube_map
-[14:28.36.993514]: GL_ARB_texture_env_add
-[14:28.36.993524]: GL_ARB_texture_env_combine
-[14:28.36.993535]: GL_ARB_texture_env_crossbar
-[14:28.36.993546]: GL_ARB_texture_env_dot3
-[14:28.36.993556]: GL_ARB_texture_float
-[14:28.36.993566]: GL_ARB_texture_mirror_clamp_to_edge
-[14:28.36.993577]: GL_ARB_texture_mirrored_repeat
-[14:28.36.993584]: GL_ARB_texture_multisample
-[14:28.36.993590]: GL_ARB_texture_non_power_of_two
-[14:28.36.993596]: GL_ARB_texture_rectangle
-[14:28.36.993602]: GL_ARB_texture_rg
-[14:28.36.993608]: GL_ARB_texture_rgb10_a2ui
-[14:28.36.993614]: GL_ARB_texture_storage
-[14:28.36.993620]: GL_ARB_texture_storage_multisample
-[14:28.36.993626]: GL_ARB_texture_swizzle
-[14:28.36.993632]: GL_ARB_timer_query
-[14:28.36.993638]: GL_ARB_transform_feedback2
-[14:28.36.993644]: GL_ARB_transform_feedback3
-[14:28.36.993676]: GL_ARB_transform_feedback_instanced
-[14:28.36.993684]: GL_ARB_transpose_matrix
-[14:28.36.993690]: GL_ARB_uniform_buffer_object
-[14:28.36.993696]: GL_ARB_vertex_array_bgra
-[14:28.36.993701]: GL_ARB_vertex_array_object
-[14:28.36.993707]: GL_ARB_vertex_attrib_binding
-[14:28.36.993713]: GL_ARB_vertex_buffer_object
-[14:28.36.993719]: GL_ARB_vertex_program
-[14:28.36.993725]: GL_ARB_vertex_shader
-[14:28.36.993731]: GL_ARB_vertex_type_2_10_10_10_rev
-[14:28.36.993737]: GL_ARB_window_pos
-[14:28.36.993743]: GL_ATI_blend_equation_separate
-[14:28.36.993750]: GL_ATI_draw_buffers
-[14:28.36.993756]: GL_ATI_separate_stencil
-[14:28.36.993762]: GL_ATI_texture_compression_3dc
-[14:28.36.993768]: GL_ATI_texture_env_combine3
-[14:28.36.993774]: GL_ATI_texture_float
-[14:28.36.993780]: GL_ATI_texture_mirror_once
-[14:28.36.993786]: GL_EXT_abgr
-[14:28.36.993792]: GL_EXT_bgra
-[14:28.36.993797]: GL_EXT_blend_color
-[14:28.36.993803]: GL_EXT_blend_equation_separate
-[14:28.36.993809]: GL_EXT_blend_func_separate
-[14:28.36.993815]: GL_EXT_blend_minmax
-[14:28.36.993821]: GL_EXT_blend_subtract
-[14:28.36.993827]: GL_EXT_compiled_vertex_array
-[14:28.36.993833]: GL_EXT_copy_texture
-[14:28.36.993839]: GL_EXT_draw_buffers2
-[14:28.36.993845]: GL_EXT_draw_instanced
-[14:28.36.993851]: GL_EXT_draw_range_elements
-[14:28.36.993857]: GL_EXT_fog_coord
-[14:28.36.993863]: GL_EXT_framebuffer_blit
-[14:28.36.993868]: GL_EXT_framebuffer_multisample
-[14:28.36.993875]: GL_EXT_framebuffer_multisample_blit_scaled
-[14:28.36.993881]: GL_EXT_framebuffer_object
-[14:28.36.993887]: GL_EXT_framebuffer_sRGB
-[14:28.36.993893]: GL_EXT_gpu_program_parameters
-[14:28.36.993899]: GL_EXT_multi_draw_arrays
-[14:28.36.993905]: GL_EXT_packed_depth_stencil
-[14:28.36.993911]: GL_EXT_packed_float
-[14:28.36.993917]: GL_EXT_packed_pixels
-[14:28.36.993922]: GL_EXT_pixel_buffer_object
-[14:28.36.993928]: GL_EXT_point_parameters
-[14:28.36.993934]: GL_EXT_polygon_offset
-[14:28.36.993940]: GL_EXT_provoking_vertex
-[14:28.36.993946]: GL_EXT_rescale_normal
-[14:28.36.993952]: GL_EXT_secondary_color
-[14:28.36.993958]: GL_EXT_separate_specular_color
-[14:28.36.993964]: GL_EXT_shadow_funcs
-[14:28.36.993970]: GL_EXT_stencil_two_side
-[14:28.36.993976]: GL_EXT_stencil_wrap
-[14:28.36.993981]: GL_EXT_subtexture
-[14:28.36.993987]: GL_EXT_texture
-[14:28.36.993993]: GL_EXT_texture3D
-[14:28.36.993999]: GL_EXT_texture_array
-[14:28.36.994006]: GL_EXT_texture_compression_dxt1
-[14:28.36.994017]: GL_EXT_texture_compression_latc
-[14:28.36.994026]: GL_EXT_texture_compression_rgtc
-[14:28.36.994032]: GL_EXT_texture_compression_s3tc
-[14:28.36.994038]: GL_EXT_texture_cube_map
-[14:28.36.994045]: GL_EXT_texture_edge_clamp
-[14:28.36.994051]: GL_EXT_texture_env_add
-[14:28.36.994058]: GL_EXT_texture_env_combine
-[14:28.36.994069]: GL_EXT_texture_env_dot3
-[14:28.36.994079]: GL_EXT_texture_filter_anisotropic
-[14:28.36.994088]: GL_EXT_texture_integer
-[14:28.36.994097]: GL_EXT_texture_lod_bias
-[14:28.36.994106]: GL_EXT_texture_mirror_clamp
-[14:28.36.994114]: GL_EXT_texture_object
-[14:28.36.994123]: GL_EXT_texture_rectangle
-[14:28.36.994133]: GL_EXT_texture_sRGB
-[14:28.36.994142]: GL_EXT_texture_sRGB_decode
-[14:28.36.994151]: GL_EXT_texture_shared_exponent
-[14:28.36.994157]: GL_EXT_texture_snorm
-[14:28.36.994163]: GL_EXT_texture_swizzle
-[14:28.36.994169]: GL_EXT_timer_query
-[14:28.36.994175]: GL_EXT_transform_feedback
-[14:28.36.994193]: GL_EXT_vertex_array
-[14:28.36.994200]: GL_EXT_vertex_array_bgra
-[14:28.36.994207]: GL_IBM_multimode_draw_arrays
-[14:28.36.994213]: GL_IBM_rasterpos_clip
-[14:28.36.994219]: GL_IBM_texture_mirrored_repeat
-[14:28.36.994225]: GL_INGR_blend_func_separate
-[14:28.36.994231]: GL_KHR_debug
-[14:28.36.994237]: GL_MESA_pack_invert
-[14:28.36.994243]: GL_MESA_texture_signed_rgba
-[14:28.36.994249]: GL_MESA_window_pos
-[14:28.36.994255]: GL_NV_blend_square
-[14:28.36.994261]: GL_NV_conditional_render
-[14:28.36.994267]: GL_NV_depth_clamp
-[14:28.36.994273]: GL_NV_fog_distance
-[14:28.36.994279]: GL_NV_light_max_exponent
-[14:28.36.994285]: GL_NV_packed_depth_stencil
-[14:28.36.994291]: GL_NV_primitive_restart
-[14:28.36.994303]: GL_NV_texgen_reflection
-[14:28.36.994309]: GL_NV_texture_barrier
-[14:28.36.994315]: GL_NV_texture_env_combine4
-[14:28.36.994321]: GL_NV_texture_rectangle
-[14:28.36.994330]: GL_NV_vdpau_interop
-[14:28.36.994339]: GL_OES_EGL_image
-[14:28.36.994347]: GL_OES_read_format
-[14:28.36.994353]: GL_S3_s3tc
-[14:28.36.994359]: GL_SGIS_generate_mipmap
-[14:28.36.994365]: GL_SGIS_texture_border_clamp
-[14:28.36.994375]: GL_SGIS_texture_edge_clamp
-[14:28.36.994385]: GL_SGIS_texture_lod
-[14:28.36.994391]: GL_SUN_multi_draw_arrays
-[14:28.36.994406]: GL_MAX_TEXTURE_SIZE = 8192
-[14:28.36.994413]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[14:28.36.994421]: GL_MAX_RENDERBUFFER_SIZE = 8192
-[14:28.36.994427]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
-[14:28.36.994434]: GL_MAX_VARYING_VECTORS = 15
-[14:28.36.994441]: GL_MAX_VERTEX_ATTRIBS = 16
-[14:28.36.994447]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
-[14:28.36.994454]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-[14:28.36.994461]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
-[14:28.37.26126]: cDontStarveGame::DoGameSpecificInitialize()
-[14:28.37.33376]: cGame::StartPlaying
-[14:28.37.36824]: LOADING LUA
-[14:28.37.36858]: DoLuaFile data/scripts/main.lua
-[14:28.37.36939]: DoLuaFile loading buffer data/scripts/main.lua
-[14:28.37.69325]: data/scripts/main.lua(115,1)	running main.lua
+[14:37.35.577695]: THREAD - started 'GAClient' (4140890944)
+[14:37.35.577729]: HttpClient::ClientThread::Main()
+[14:37.35.702927]: cGame::InitializeOnMainThread
+[14:37.35.702966]: WindowManager::Initialize
+[14:37.35.780163]: GLInfo
+[14:37.35.780210]: ~~~~~~
+[14:37.35.780223]: GL_VENDOR: nouveau
+[14:37.35.780238]: GL_RENDERER: Gallium 0.4 on NVA8
+[14:37.35.780252]: GL_VERSION: 3.0 Mesa 10.1.3
+[14:37.35.780263]: GL_SHADING_LANGUAGE_VERSION: 1.30
+[14:37.35.780279]: OpenGL 3.0 present, detecting extensions the new way
+[14:37.35.780614]: OpenGL extensions (185, 185):
+[14:37.35.780642]: GL_AMD_conservative_depth
+[14:37.35.780659]: GL_AMD_draw_buffers_blend
+[14:37.35.780670]: GL_AMD_shader_trinary_minmax
+[14:37.35.780680]: GL_ANGLE_texture_compression_dxt3
+[14:37.35.780693]: GL_ANGLE_texture_compression_dxt5
+[14:37.35.780705]: GL_APPLE_packed_pixels
+[14:37.35.780717]: GL_APPLE_vertex_array_object
+[14:37.35.780727]: GL_ARB_ES2_compatibility
+[14:37.35.780737]: GL_ARB_base_instance
+[14:37.35.780747]: GL_ARB_blend_func_extended
+[14:37.35.780757]: GL_ARB_clear_buffer_object
+[14:37.35.780766]: GL_ARB_color_buffer_float
+[14:37.35.780776]: GL_ARB_conservative_depth
+[14:37.35.780786]: GL_ARB_copy_buffer
+[14:37.35.780795]: GL_ARB_debug_output
+[14:37.35.780805]: GL_ARB_depth_buffer_float
+[14:37.35.780812]: GL_ARB_depth_clamp
+[14:37.35.780818]: GL_ARB_depth_texture
+[14:37.35.780824]: GL_ARB_draw_buffers
+[14:37.35.780831]: GL_ARB_draw_buffers_blend
+[14:37.35.780841]: GL_ARB_draw_elements_base_vertex
+[14:37.35.780851]: GL_ARB_draw_instanced
+[14:37.35.780861]: GL_ARB_explicit_attrib_location
+[14:37.35.780873]: GL_ARB_fragment_coord_conventions
+[14:37.35.780884]: GL_ARB_fragment_program
+[14:37.35.780894]: GL_ARB_fragment_program_shadow
+[14:37.35.780905]: GL_ARB_fragment_shader
+[14:37.35.780916]: GL_ARB_framebuffer_object
+[14:37.35.780926]: GL_ARB_framebuffer_sRGB
+[14:37.35.780937]: GL_ARB_get_program_binary
+[14:37.35.780948]: GL_ARB_half_float_pixel
+[14:37.35.780959]: GL_ARB_half_float_vertex
+[14:37.35.780970]: GL_ARB_instanced_arrays
+[14:37.35.780980]: GL_ARB_internalformat_query
+[14:37.35.780991]: GL_ARB_invalidate_subdata
+[14:37.35.781001]: GL_ARB_map_buffer_alignment
+[14:37.35.781012]: GL_ARB_map_buffer_range
+[14:37.35.781020]: GL_ARB_multisample
+[14:37.35.781026]: GL_ARB_multitexture
+[14:37.35.781032]: GL_ARB_occlusion_query
+[14:37.35.781037]: GL_ARB_occlusion_query2
+[14:37.35.781044]: GL_ARB_pixel_buffer_object
+[14:37.35.781054]: GL_ARB_point_parameters
+[14:37.35.781064]: GL_ARB_point_sprite
+[14:37.35.781073]: GL_ARB_provoking_vertex
+[14:37.35.781081]: GL_ARB_robustness
+[14:37.35.781090]: GL_ARB_sampler_objects
+[14:37.35.781099]: GL_ARB_seamless_cube_map
+[14:37.35.781108]: GL_ARB_shader_bit_encoding
+[14:37.35.781118]: GL_ARB_shader_objects
+[14:37.35.781127]: GL_ARB_shader_texture_lod
+[14:37.35.781136]: GL_ARB_shading_language_100
+[14:37.35.781145]: GL_ARB_shading_language_420pack
+[14:37.35.781156]: GL_ARB_shading_language_packing
+[14:37.35.781166]: GL_ARB_shadow
+[14:37.35.781175]: GL_ARB_sync
+[14:37.35.781185]: GL_ARB_texture_border_clamp
+[14:37.35.781195]: GL_ARB_texture_compression
+[14:37.35.781204]: GL_ARB_texture_compression_rgtc
+[14:37.35.781213]: GL_ARB_texture_cube_map
+[14:37.35.781223]: GL_ARB_texture_env_add
+[14:37.35.781232]: GL_ARB_texture_env_combine
+[14:37.35.781242]: GL_ARB_texture_env_crossbar
+[14:37.35.781252]: GL_ARB_texture_env_dot3
+[14:37.35.781263]: GL_ARB_texture_float
+[14:37.35.781273]: GL_ARB_texture_mirror_clamp_to_edge
+[14:37.35.781281]: GL_ARB_texture_mirrored_repeat
+[14:37.35.781287]: GL_ARB_texture_multisample
+[14:37.35.781293]: GL_ARB_texture_non_power_of_two
+[14:37.35.781299]: GL_ARB_texture_rectangle
+[14:37.35.781305]: GL_ARB_texture_rg
+[14:37.35.781311]: GL_ARB_texture_rgb10_a2ui
+[14:37.35.781317]: GL_ARB_texture_storage
+[14:37.35.781323]: GL_ARB_texture_storage_multisample
+[14:37.35.781329]: GL_ARB_texture_swizzle
+[14:37.35.781335]: GL_ARB_timer_query
+[14:37.35.781341]: GL_ARB_transform_feedback2
+[14:37.35.781347]: GL_ARB_transform_feedback3
+[14:37.35.781375]: GL_ARB_transform_feedback_instanced
+[14:37.35.781387]: GL_ARB_transpose_matrix
+[14:37.35.781398]: GL_ARB_uniform_buffer_object
+[14:37.35.781408]: GL_ARB_vertex_array_bgra
+[14:37.35.781415]: GL_ARB_vertex_array_object
+[14:37.35.781421]: GL_ARB_vertex_attrib_binding
+[14:37.35.781427]: GL_ARB_vertex_buffer_object
+[14:37.35.781432]: GL_ARB_vertex_program
+[14:37.35.781438]: GL_ARB_vertex_shader
+[14:37.35.781444]: GL_ARB_vertex_type_2_10_10_10_rev
+[14:37.35.781451]: GL_ARB_window_pos
+[14:37.35.781457]: GL_ATI_blend_equation_separate
+[14:37.35.781463]: GL_ATI_draw_buffers
+[14:37.35.781469]: GL_ATI_separate_stencil
+[14:37.35.781475]: GL_ATI_texture_compression_3dc
+[14:37.35.781481]: GL_ATI_texture_env_combine3
+[14:37.35.781487]: GL_ATI_texture_float
+[14:37.35.781493]: GL_ATI_texture_mirror_once
+[14:37.35.781499]: GL_EXT_abgr
+[14:37.35.781505]: GL_EXT_bgra
+[14:37.35.781511]: GL_EXT_blend_color
+[14:37.35.781517]: GL_EXT_blend_equation_separate
+[14:37.35.781523]: GL_EXT_blend_func_separate
+[14:37.35.781529]: GL_EXT_blend_minmax
+[14:37.35.781535]: GL_EXT_blend_subtract
+[14:37.35.781541]: GL_EXT_compiled_vertex_array
+[14:37.35.781547]: GL_EXT_copy_texture
+[14:37.35.781553]: GL_EXT_draw_buffers2
+[14:37.35.781559]: GL_EXT_draw_instanced
+[14:37.35.781565]: GL_EXT_draw_range_elements
+[14:37.35.781570]: GL_EXT_fog_coord
+[14:37.35.781576]: GL_EXT_framebuffer_blit
+[14:37.35.781582]: GL_EXT_framebuffer_multisample
+[14:37.35.781589]: GL_EXT_framebuffer_multisample_blit_scaled
+[14:37.35.781595]: GL_EXT_framebuffer_object
+[14:37.35.781601]: GL_EXT_framebuffer_sRGB
+[14:37.35.781607]: GL_EXT_gpu_program_parameters
+[14:37.35.781613]: GL_EXT_multi_draw_arrays
+[14:37.35.781619]: GL_EXT_packed_depth_stencil
+[14:37.35.781625]: GL_EXT_packed_float
+[14:37.35.781631]: GL_EXT_packed_pixels
+[14:37.35.781637]: GL_EXT_pixel_buffer_object
+[14:37.35.781643]: GL_EXT_point_parameters
+[14:37.35.781649]: GL_EXT_polygon_offset
+[14:37.35.781655]: GL_EXT_provoking_vertex
+[14:37.35.781661]: GL_EXT_rescale_normal
+[14:37.35.781667]: GL_EXT_secondary_color
+[14:37.35.781673]: GL_EXT_separate_specular_color
+[14:37.35.781679]: GL_EXT_shadow_funcs
+[14:37.35.781685]: GL_EXT_stencil_two_side
+[14:37.35.781691]: GL_EXT_stencil_wrap
+[14:37.35.781697]: GL_EXT_subtexture
+[14:37.35.781703]: GL_EXT_texture
+[14:37.35.781709]: GL_EXT_texture3D
+[14:37.35.781715]: GL_EXT_texture_array
+[14:37.35.781720]: GL_EXT_texture_compression_dxt1
+[14:37.35.781727]: GL_EXT_texture_compression_latc
+[14:37.35.781733]: GL_EXT_texture_compression_rgtc
+[14:37.35.781739]: GL_EXT_texture_compression_s3tc
+[14:37.35.781745]: GL_EXT_texture_cube_map
+[14:37.35.781751]: GL_EXT_texture_edge_clamp
+[14:37.35.781757]: GL_EXT_texture_env_add
+[14:37.35.781763]: GL_EXT_texture_env_combine
+[14:37.35.781769]: GL_EXT_texture_env_dot3
+[14:37.35.781775]: GL_EXT_texture_filter_anisotropic
+[14:37.35.781781]: GL_EXT_texture_integer
+[14:37.35.781787]: GL_EXT_texture_lod_bias
+[14:37.35.781793]: GL_EXT_texture_mirror_clamp
+[14:37.35.781799]: GL_EXT_texture_object
+[14:37.35.781805]: GL_EXT_texture_rectangle
+[14:37.35.781811]: GL_EXT_texture_sRGB
+[14:37.35.781816]: GL_EXT_texture_sRGB_decode
+[14:37.35.781822]: GL_EXT_texture_shared_exponent
+[14:37.35.781828]: GL_EXT_texture_snorm
+[14:37.35.781834]: GL_EXT_texture_swizzle
+[14:37.35.781840]: GL_EXT_timer_query
+[14:37.35.781846]: GL_EXT_transform_feedback
+[14:37.35.781852]: GL_EXT_vertex_array
+[14:37.35.781859]: GL_EXT_vertex_array_bgra
+[14:37.35.781867]: GL_IBM_multimode_draw_arrays
+[14:37.35.781874]: GL_IBM_rasterpos_clip
+[14:37.35.781880]: GL_IBM_texture_mirrored_repeat
+[14:37.35.781886]: GL_INGR_blend_func_separate
+[14:37.35.781892]: GL_KHR_debug
+[14:37.35.781898]: GL_MESA_pack_invert
+[14:37.35.781904]: GL_MESA_texture_signed_rgba
+[14:37.35.781910]: GL_MESA_window_pos
+[14:37.35.781916]: GL_NV_blend_square
+[14:37.35.781922]: GL_NV_conditional_render
+[14:37.35.781928]: GL_NV_depth_clamp
+[14:37.35.781934]: GL_NV_fog_distance
+[14:37.35.781940]: GL_NV_light_max_exponent
+[14:37.35.781946]: GL_NV_packed_depth_stencil
+[14:37.35.781952]: GL_NV_primitive_restart
+[14:37.35.781964]: GL_NV_texgen_reflection
+[14:37.35.781970]: GL_NV_texture_barrier
+[14:37.35.781976]: GL_NV_texture_env_combine4
+[14:37.35.781982]: GL_NV_texture_rectangle
+[14:37.35.781988]: GL_NV_vdpau_interop
+[14:37.35.781994]: GL_OES_EGL_image
+[14:37.35.782000]: GL_OES_read_format
+[14:37.35.782005]: GL_S3_s3tc
+[14:37.35.782011]: GL_SGIS_generate_mipmap
+[14:37.35.782017]: GL_SGIS_texture_border_clamp
+[14:37.35.782023]: GL_SGIS_texture_edge_clamp
+[14:37.35.782029]: GL_SGIS_texture_lod
+[14:37.35.782035]: GL_SUN_multi_draw_arrays
+[14:37.35.782049]: GL_MAX_TEXTURE_SIZE = 8192
+[14:37.35.782057]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[14:37.35.782064]: GL_MAX_RENDERBUFFER_SIZE = 8192
+[14:37.35.782071]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
+[14:37.35.782077]: GL_MAX_VARYING_VECTORS = 15
+[14:37.35.782084]: GL_MAX_VERTEX_ATTRIBS = 16
+[14:37.35.782091]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
+[14:37.35.782097]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
+[14:37.35.782104]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
+[14:37.35.803275]: cDontStarveGame::DoGameSpecificInitialize()
+[14:37.35.810942]: cGame::StartPlaying
+[14:37.35.814135]: LOADING LUA
+[14:37.35.814168]: DoLuaFile data/scripts/main.lua
+[14:37.35.814287]: DoLuaFile loading buffer data/scripts/main.lua
+[14:37.35.846926]: data/scripts/main.lua(115,1)	running main.lua
 
-[14:28.37.95321]: LOADING LUA SUCCESS
-[14:28.37.175507]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[14:28.37.176451]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[14:28.37.176950]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[14:28.37.284889]: data/scripts/gamelogic.lua(65,1)	done
-[14:28.37.287841]: Reset() returning
-[14:28.40.759251]: Collecting garbage...
-[14:28.40.767276]: lua_gc took 0.01 seconds
-[14:28.40.775906]: lua_close took 0.01 seconds
-[14:28.40.776421]: ReleaseAll
-[14:28.40.776480]: ReleaseAll Finished
-[14:28.40.776743]: cGame::StartPlaying
-[14:28.40.779964]: LOADING LUA
-[14:28.40.779996]: DoLuaFile data/scripts/main.lua
-[14:28.40.780102]: DoLuaFile loading buffer data/scripts/main.lua
-[14:28.40.811749]: data/scripts/main.lua(115,1)	running main.lua
+[14:37.35.872068]: LOADING LUA SUCCESS
+[14:37.35.955034]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[14:37.35.955960]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[14:37.35.956477]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[14:37.36.63532]: data/scripts/gamelogic.lua(65,1)	done
+[14:37.36.66520]: Reset() returning
+[14:37.39.784652]: Collecting garbage...
+[14:37.39.792712]: lua_gc took 0.01 seconds
+[14:37.39.801031]: lua_close took 0.01 seconds
+[14:37.39.801346]: ReleaseAll
+[14:37.39.801403]: ReleaseAll Finished
+[14:37.39.801661]: cGame::StartPlaying
+[14:37.39.804829]: LOADING LUA
+[14:37.39.804864]: DoLuaFile data/scripts/main.lua
+[14:37.39.804955]: DoLuaFile loading buffer data/scripts/main.lua
+[14:37.39.836624]: data/scripts/main.lua(115,1)	running main.lua
 
-[14:28.40.812720]: LOADING LUA SUCCESS
-[14:28.40.892855]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[14:28.40.893770]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[14:28.40.942277]: data/scripts/gamelogic.lua(67,1)	LOAD BE
-[14:28.41.672631]: data/scripts/gamelogic.lua(71,1)	done
-[14:28.42.146116]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
-[14:28.43.436875]: Reset() returning
-[14:37.04.109296]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[14:37.04.226106]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[14:37.04.557964]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[14:37.14.445880]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[14:37.14.704677]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[14:37.14.761226]: Collecting garbage...
-[14:37.14.896593]: lua_gc took 0.14 seconds
-[14:37.15.46783]: lua_close took 0.15 seconds
-[14:37.15.47359]: ReleaseAll
-[14:37.15.49425]: ReleaseAll Finished
-[14:37.15.49683]: cGame::StartPlaying
-[14:37.15.53236]: LOADING LUA
-[14:37.15.53268]: DoLuaFile data/scripts/main.lua
-[14:37.15.53370]: DoLuaFile loading buffer data/scripts/main.lua
-[14:37.15.86781]: data/scripts/main.lua(115,1)	running main.lua
+[14:37.39.837664]: LOADING LUA SUCCESS
+[14:37.39.918943]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[14:37.39.919828]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[14:37.39.969963]: data/scripts/gamelogic.lua(67,1)	LOAD BE
+[14:37.40.700320]: data/scripts/gamelogic.lua(71,1)	done
+[14:37.41.169482]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
+[14:37.42.435908]: Reset() returning
+[14:41.39.689957]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[14:41.39.809166]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
+[14:41.40.138939]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[14:42.07.141371]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
+[14:42.07.395713]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
+[14:42.07.453273]: Collecting garbage...
+[14:42.07.580537]: lua_gc took 0.13 seconds
+[14:42.07.722940]: lua_close took 0.14 seconds
+[14:42.07.723397]: ReleaseAll
+[14:42.07.725541]: ReleaseAll Finished
+[14:42.07.725803]: cGame::StartPlaying
+[14:42.07.729130]: LOADING LUA
+[14:42.07.729167]: DoLuaFile data/scripts/main.lua
+[14:42.07.729293]: DoLuaFile loading buffer data/scripts/main.lua
+[14:42.07.762220]: data/scripts/main.lua(115,1)	running main.lua
 
-[14:37.15.87783]: LOADING LUA SUCCESS
-[14:37.15.170378]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[14:37.15.171435]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[14:37.15.171931]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[14:37.15.267013]: data/scripts/gamelogic.lua(65,1)	done
-[14:37.15.269609]: Reset() returning
-[14:37.17.17225]: Collecting garbage...
-[14:37.17.26849]: lua_gc took 0.01 seconds
-[14:37.17.36083]: lua_close took 0.01 seconds
-[14:37.17.36881]: ORPHANED UNKNOWN RESOURCES:
-[14:37.17.36893]: data/fonts/belisaplumilla100.zip - 2
-[14:37.17.36901]: data/fonts/belisaplumilla50.zip - 2
-[14:37.17.36908]: data/fonts/talkingfont.zip - 2
-[14:37.17.36915]: data/fonts/stint-ucr20.zip - 2
-[14:37.17.36924]: data/fonts/buttonfont.zip - 2
-[14:37.17.36945]: data/fonts/stint-ucr50.zip - 2
-[14:37.17.36952]: data/fonts/opensans50.zip - 2
-[14:37.17.72200]: ORPHANED UNKNOWN RESOURCES:
-[14:37.17.72244]: data/fonts/belisaplumilla100.zip - 1
-[14:37.17.72301]: data/fonts/belisaplumilla50.zip - 1
-[14:37.17.72348]: data/fonts/talkingfont.zip - 1
-[14:37.17.72521]: data/fonts/stint-ucr20.zip - 1
-[14:37.17.72603]: data/fonts/buttonfont.zip - 1
-[14:37.17.72616]: data/fonts/stint-ucr50.zip - 1
-[14:37.17.72658]: data/images/square.tex - 2
-[14:37.17.72702]: data/fonts/opensans50.zip - 1
-[14:37.17.146845]: HttpClient::ClientThread::Main() complete
-[14:37.17.146957]: Shutting down
+[14:42.07.763239]: LOADING LUA SUCCESS
+[14:42.07.844132]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[14:42.07.845107]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[14:42.07.845599]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[14:42.07.942547]: data/scripts/gamelogic.lua(65,1)	done
+[14:42.07.945259]: Reset() returning
+[14:42.09.583131]: Collecting garbage...
+[14:42.09.592158]: lua_gc took 0.01 seconds
+[14:42.09.601133]: lua_close took 0.01 seconds
+[14:42.09.602158]: ORPHANED UNKNOWN RESOURCES:
+[14:42.09.602213]: data/fonts/belisaplumilla100.zip - 2
+[14:42.09.602231]: data/fonts/belisaplumilla50.zip - 2
+[14:42.09.602242]: data/fonts/talkingfont.zip - 2
+[14:42.09.602253]: data/fonts/stint-ucr20.zip - 2
+[14:42.09.602263]: data/fonts/buttonfont.zip - 2
+[14:42.09.602291]: data/fonts/stint-ucr50.zip - 2
+[14:42.09.602301]: data/fonts/opensans50.zip - 2
+[14:42.09.639621]: ORPHANED UNKNOWN RESOURCES:
+[14:42.09.639656]: data/fonts/belisaplumilla100.zip - 1
+[14:42.09.639702]: data/fonts/belisaplumilla50.zip - 1
+[14:42.09.639761]: data/fonts/talkingfont.zip - 1
+[14:42.09.639841]: data/fonts/stint-ucr20.zip - 1
+[14:42.09.639992]: data/fonts/buttonfont.zip - 1
+[14:42.09.640052]: data/fonts/stint-ucr50.zip - 1
+[14:42.09.640097]: data/images/square.tex - 2
+[14:42.09.640143]: data/fonts/opensans50.zip - 1
+[14:42.09.728184]: HttpClient::ClientThread::Main() complete
+[14:42.09.728276]: Shutting down
