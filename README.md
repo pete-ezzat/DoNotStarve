@@ -1,6 +1,6 @@
-## Installation
+### This is a _Don't Starve Game_ progress files
 
-#### This is a DoNotStarve Game Progress Files
+## Installation
 
 ### Linux
 
