@@ -4,4 +4,4 @@
 
 ### Linux
 
-Clone DoNotStarve Directory inside _~\/.klei_ Directory
+Clone DoNotStarve Directory inside _~/.klei_ Directory.
