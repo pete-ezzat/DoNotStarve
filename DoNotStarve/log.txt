@@ -238,3 +238,66 @@ Build Date: 2013-05-28_14-56-39
 [14:50.29.259981]: data/scripts/gamelogic.lua(71,1)	done
 [14:50.29.653994]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
 [14:50.30.374800]: Reset() returning
+[14:53.27.736210]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[14:58.46.266891]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[14:58.46.483903]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:02.27.917809]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[15:06.51.660268]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:06.51.859944]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:10.48.475602]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:10.48.693213]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:14.22.978439]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:14.23.216857]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:15.54.874194]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[15:22.35.97913]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:22.35.313920]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:24.17.546313]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[15:26.22.248692]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:26.22.489623]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:30.02.675841]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:30.02.878335]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:32.20.613042]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
+[15:35.39.689065]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:35.39.932474]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:39.18.479127]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
+[15:39.18.683920]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:39.30.320902]: data/scripts/main.lua(630,1)	Saved	adventure_1	nil
+[15:39.30.351805]: Collecting garbage...
+[15:39.30.427025]: lua_gc took 0.08 seconds
+[15:39.30.505924]: lua_close took 0.08 seconds
+[15:39.30.506365]: ReleaseAll
+[15:39.30.508018]: ReleaseAll Finished
+[15:39.30.508271]: cGame::StartPlaying
+[15:39.30.511878]: LOADING LUA
+[15:39.30.511913]: DoLuaFile data/scripts/main.lua
+[15:39.30.512037]: DoLuaFile loading buffer data/scripts/main.lua
+[15:39.30.544151]: data/scripts/main.lua(115,1)	running main.lua
+
+[15:39.30.545158]: LOADING LUA SUCCESS
+[15:39.30.623756]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[15:39.30.624673]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[15:39.30.625263]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[15:39.30.719754]: data/scripts/gamelogic.lua(65,1)	done
+[15:39.30.722281]: Reset() returning
+[15:39.32.129268]: Collecting garbage...
+[15:39.32.135176]: lua_gc took 0.01 seconds
+[15:39.32.143461]: lua_close took 0.01 seconds
+[15:39.32.144202]: ORPHANED UNKNOWN RESOURCES:
+[15:39.32.144214]: data/fonts/belisaplumilla100.zip - 2
+[15:39.32.144222]: data/fonts/belisaplumilla50.zip - 2
+[15:39.32.144229]: data/fonts/talkingfont.zip - 2
+[15:39.32.144235]: data/fonts/stint-ucr20.zip - 2
+[15:39.32.144242]: data/fonts/buttonfont.zip - 2
+[15:39.32.144250]: data/fonts/stint-ucr50.zip - 2
+[15:39.32.144257]: data/fonts/opensans50.zip - 2
+[15:39.32.179281]: ORPHANED UNKNOWN RESOURCES:
+[15:39.32.179316]: data/fonts/belisaplumilla100.zip - 1
+[15:39.32.179362]: data/fonts/belisaplumilla50.zip - 1
+[15:39.32.179405]: data/fonts/talkingfont.zip - 1
+[15:39.32.179453]: data/fonts/stint-ucr20.zip - 1
+[15:39.32.179500]: data/fonts/buttonfont.zip - 1
+[15:39.32.179512]: data/fonts/stint-ucr50.zip - 1
+[15:39.32.179554]: data/images/square.tex - 2
+[15:39.32.179598]: data/fonts/opensans50.zip - 1
+[15:39.32.239867]: HttpClient::ClientThread::Main() complete
+[15:39.32.239955]: Shutting down
