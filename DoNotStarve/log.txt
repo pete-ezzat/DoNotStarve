@@ -1,1203 +1,229 @@
-[03:19.18.446585]: Starting up
-[03:19.18.446632]: Don't Starve: 78490
+[19:07.07.298402]: Starting up
+[19:07.07.298449]: Don't Starve: 78490
 Build Date: 2013-05-28_14-56-39
-[03:19.18.447061]: THREAD - started 'GAClient' (4141558592)
-[03:19.18.447121]: HttpClient::ClientThread::Main()
-[03:19.18.545132]: cGame::InitializeOnMainThread
-[03:19.18.545159]: WindowManager::Initialize
-[03:19.18.581485]: GLInfo
-[03:19.18.581521]: ~~~~~~
-[03:19.18.581531]: GL_VENDOR: nouveau
-[03:19.18.581540]: GL_RENDERER: Gallium 0.4 on NVA8
-[03:19.18.581547]: GL_VERSION: 3.0 Mesa 10.1.3
-[03:19.18.581554]: GL_SHADING_LANGUAGE_VERSION: 1.30
-[03:19.18.581564]: OpenGL 3.0 present, detecting extensions the new way
-[03:19.18.581787]: OpenGL extensions (185, 185):
-[03:19.18.581795]: GL_AMD_conservative_depth
-[03:19.18.581803]: GL_AMD_draw_buffers_blend
-[03:19.18.581809]: GL_AMD_shader_trinary_minmax
-[03:19.18.581815]: GL_ANGLE_texture_compression_dxt3
-[03:19.18.581821]: GL_ANGLE_texture_compression_dxt5
-[03:19.18.581827]: GL_APPLE_packed_pixels
-[03:19.18.581833]: GL_APPLE_vertex_array_object
-[03:19.18.581839]: GL_ARB_ES2_compatibility
-[03:19.18.581845]: GL_ARB_base_instance
-[03:19.18.581851]: GL_ARB_blend_func_extended
-[03:19.18.581857]: GL_ARB_clear_buffer_object
-[03:19.18.581863]: GL_ARB_color_buffer_float
-[03:19.18.581869]: GL_ARB_conservative_depth
-[03:19.18.581874]: GL_ARB_copy_buffer
-[03:19.18.581880]: GL_ARB_debug_output
-[03:19.18.581886]: GL_ARB_depth_buffer_float
-[03:19.18.581892]: GL_ARB_depth_clamp
-[03:19.18.581924]: GL_ARB_depth_texture
-[03:19.18.581938]: GL_ARB_draw_buffers
-[03:19.18.581954]: GL_ARB_draw_buffers_blend
-[03:19.18.581961]: GL_ARB_draw_elements_base_vertex
-[03:19.18.581968]: GL_ARB_draw_instanced
-[03:19.18.581974]: GL_ARB_explicit_attrib_location
-[03:19.18.581980]: GL_ARB_fragment_coord_conventions
-[03:19.18.581986]: GL_ARB_fragment_program
-[03:19.18.581992]: GL_ARB_fragment_program_shadow
-[03:19.18.581998]: GL_ARB_fragment_shader
-[03:19.18.582004]: GL_ARB_framebuffer_object
-[03:19.18.582010]: GL_ARB_framebuffer_sRGB
-[03:19.18.582016]: GL_ARB_get_program_binary
-[03:19.18.582022]: GL_ARB_half_float_pixel
-[03:19.18.582028]: GL_ARB_half_float_vertex
-[03:19.18.582034]: GL_ARB_instanced_arrays
-[03:19.18.582040]: GL_ARB_internalformat_query
-[03:19.18.582046]: GL_ARB_invalidate_subdata
-[03:19.18.582052]: GL_ARB_map_buffer_alignment
-[03:19.18.582057]: GL_ARB_map_buffer_range
-[03:19.18.582063]: GL_ARB_multisample
-[03:19.18.582069]: GL_ARB_multitexture
-[03:19.18.582075]: GL_ARB_occlusion_query
-[03:19.18.582081]: GL_ARB_occlusion_query2
-[03:19.18.582087]: GL_ARB_pixel_buffer_object
-[03:19.18.582093]: GL_ARB_point_parameters
-[03:19.18.582099]: GL_ARB_point_sprite
-[03:19.18.582105]: GL_ARB_provoking_vertex
-[03:19.18.582110]: GL_ARB_robustness
-[03:19.18.582116]: GL_ARB_sampler_objects
-[03:19.18.582122]: GL_ARB_seamless_cube_map
-[03:19.18.582128]: GL_ARB_shader_bit_encoding
-[03:19.18.582134]: GL_ARB_shader_objects
-[03:19.18.582140]: GL_ARB_shader_texture_lod
-[03:19.18.582146]: GL_ARB_shading_language_100
-[03:19.18.582152]: GL_ARB_shading_language_420pack
-[03:19.18.582158]: GL_ARB_shading_language_packing
-[03:19.18.582164]: GL_ARB_shadow
-[03:19.18.582170]: GL_ARB_sync
-[03:19.18.582176]: GL_ARB_texture_border_clamp
-[03:19.18.582182]: GL_ARB_texture_compression
-[03:19.18.582188]: GL_ARB_texture_compression_rgtc
-[03:19.18.582194]: GL_ARB_texture_cube_map
-[03:19.18.582200]: GL_ARB_texture_env_add
-[03:19.18.582206]: GL_ARB_texture_env_combine
-[03:19.18.582211]: GL_ARB_texture_env_crossbar
-[03:19.18.582217]: GL_ARB_texture_env_dot3
-[03:19.18.582223]: GL_ARB_texture_float
-[03:19.18.582229]: GL_ARB_texture_mirror_clamp_to_edge
-[03:19.18.582235]: GL_ARB_texture_mirrored_repeat
-[03:19.18.582241]: GL_ARB_texture_multisample
-[03:19.18.582247]: GL_ARB_texture_non_power_of_two
-[03:19.18.582253]: GL_ARB_texture_rectangle
-[03:19.18.582259]: GL_ARB_texture_rg
-[03:19.18.582265]: GL_ARB_texture_rgb10_a2ui
-[03:19.18.582271]: GL_ARB_texture_storage
-[03:19.18.582277]: GL_ARB_texture_storage_multisample
-[03:19.18.582283]: GL_ARB_texture_swizzle
-[03:19.18.582289]: GL_ARB_timer_query
-[03:19.18.582295]: GL_ARB_transform_feedback2
-[03:19.18.582301]: GL_ARB_transform_feedback3
-[03:19.18.582325]: GL_ARB_transform_feedback_instanced
-[03:19.18.582332]: GL_ARB_transpose_matrix
-[03:19.18.582338]: GL_ARB_uniform_buffer_object
-[03:19.18.582344]: GL_ARB_vertex_array_bgra
-[03:19.18.582350]: GL_ARB_vertex_array_object
-[03:19.18.582356]: GL_ARB_vertex_attrib_binding
-[03:19.18.582362]: GL_ARB_vertex_buffer_object
-[03:19.18.582368]: GL_ARB_vertex_program
-[03:19.18.582373]: GL_ARB_vertex_shader
-[03:19.18.582379]: GL_ARB_vertex_type_2_10_10_10_rev
-[03:19.18.582386]: GL_ARB_window_pos
-[03:19.18.582392]: GL_ATI_blend_equation_separate
-[03:19.18.582398]: GL_ATI_draw_buffers
-[03:19.18.582404]: GL_ATI_separate_stencil
-[03:19.18.582410]: GL_ATI_texture_compression_3dc
-[03:19.18.582416]: GL_ATI_texture_env_combine3
-[03:19.18.582422]: GL_ATI_texture_float
-[03:19.18.582428]: GL_ATI_texture_mirror_once
-[03:19.18.582434]: GL_EXT_abgr
-[03:19.18.582440]: GL_EXT_bgra
-[03:19.18.582446]: GL_EXT_blend_color
-[03:19.18.582452]: GL_EXT_blend_equation_separate
-[03:19.18.582458]: GL_EXT_blend_func_separate
-[03:19.18.582464]: GL_EXT_blend_minmax
-[03:19.18.582470]: GL_EXT_blend_subtract
-[03:19.18.582476]: GL_EXT_compiled_vertex_array
-[03:19.18.582482]: GL_EXT_copy_texture
-[03:19.18.582488]: GL_EXT_draw_buffers2
-[03:19.18.582494]: GL_EXT_draw_instanced
-[03:19.18.582500]: GL_EXT_draw_range_elements
-[03:19.18.582506]: GL_EXT_fog_coord
-[03:19.18.582512]: GL_EXT_framebuffer_blit
-[03:19.18.582518]: GL_EXT_framebuffer_multisample
-[03:19.18.582524]: GL_EXT_framebuffer_multisample_blit_scaled
-[03:19.18.582530]: GL_EXT_framebuffer_object
-[03:19.18.582536]: GL_EXT_framebuffer_sRGB
-[03:19.18.582542]: GL_EXT_gpu_program_parameters
-[03:19.18.582549]: GL_EXT_multi_draw_arrays
-[03:19.18.582554]: GL_EXT_packed_depth_stencil
-[03:19.18.582560]: GL_EXT_packed_float
-[03:19.18.582567]: GL_EXT_packed_pixels
-[03:19.18.582573]: GL_EXT_pixel_buffer_object
-[03:19.18.582579]: GL_EXT_point_parameters
-[03:19.18.582585]: GL_EXT_polygon_offset
-[03:19.18.582590]: GL_EXT_provoking_vertex
-[03:19.18.582596]: GL_EXT_rescale_normal
-[03:19.18.582602]: GL_EXT_secondary_color
-[03:19.18.582608]: GL_EXT_separate_specular_color
-[03:19.18.582614]: GL_EXT_shadow_funcs
-[03:19.18.582620]: GL_EXT_stencil_two_side
-[03:19.18.582626]: GL_EXT_stencil_wrap
-[03:19.18.582632]: GL_EXT_subtexture
-[03:19.18.582638]: GL_EXT_texture
-[03:19.18.582644]: GL_EXT_texture3D
-[03:19.18.582650]: GL_EXT_texture_array
-[03:19.18.582656]: GL_EXT_texture_compression_dxt1
-[03:19.18.582662]: GL_EXT_texture_compression_latc
-[03:19.18.582668]: GL_EXT_texture_compression_rgtc
-[03:19.18.582674]: GL_EXT_texture_compression_s3tc
-[03:19.18.582680]: GL_EXT_texture_cube_map
-[03:19.18.582686]: GL_EXT_texture_edge_clamp
-[03:19.18.582692]: GL_EXT_texture_env_add
-[03:19.18.582698]: GL_EXT_texture_env_combine
-[03:19.18.582704]: GL_EXT_texture_env_dot3
-[03:19.18.582710]: GL_EXT_texture_filter_anisotropic
-[03:19.18.582716]: GL_EXT_texture_integer
-[03:19.18.582722]: GL_EXT_texture_lod_bias
-[03:19.18.582728]: GL_EXT_texture_mirror_clamp
-[03:19.18.582734]: GL_EXT_texture_object
-[03:19.18.582740]: GL_EXT_texture_rectangle
-[03:19.18.582746]: GL_EXT_texture_sRGB
-[03:19.18.582752]: GL_EXT_texture_sRGB_decode
-[03:19.18.582758]: GL_EXT_texture_shared_exponent
-[03:19.18.582764]: GL_EXT_texture_snorm
-[03:19.18.582770]: GL_EXT_texture_swizzle
-[03:19.18.582776]: GL_EXT_timer_query
-[03:19.18.582781]: GL_EXT_transform_feedback
-[03:19.18.582787]: GL_EXT_vertex_array
-[03:19.18.582793]: GL_EXT_vertex_array_bgra
-[03:19.18.582799]: GL_IBM_multimode_draw_arrays
-[03:19.18.582805]: GL_IBM_rasterpos_clip
-[03:19.18.582811]: GL_IBM_texture_mirrored_repeat
-[03:19.18.582817]: GL_INGR_blend_func_separate
-[03:19.18.582823]: GL_KHR_debug
-[03:19.18.582829]: GL_MESA_pack_invert
-[03:19.18.582835]: GL_MESA_texture_signed_rgba
-[03:19.18.582841]: GL_MESA_window_pos
-[03:19.18.582847]: GL_NV_blend_square
-[03:19.18.582853]: GL_NV_conditional_render
-[03:19.18.582859]: GL_NV_depth_clamp
-[03:19.18.582865]: GL_NV_fog_distance
-[03:19.18.582870]: GL_NV_light_max_exponent
-[03:19.18.582876]: GL_NV_packed_depth_stencil
-[03:19.18.582882]: GL_NV_primitive_restart
-[03:19.18.582893]: GL_NV_texgen_reflection
-[03:19.18.582900]: GL_NV_texture_barrier
-[03:19.18.582906]: GL_NV_texture_env_combine4
-[03:19.18.582912]: GL_NV_texture_rectangle
-[03:19.18.582918]: GL_NV_vdpau_interop
-[03:19.18.582923]: GL_OES_EGL_image
-[03:19.18.582929]: GL_OES_read_format
-[03:19.18.582935]: GL_S3_s3tc
-[03:19.18.582941]: GL_SGIS_generate_mipmap
-[03:19.18.582947]: GL_SGIS_texture_border_clamp
-[03:19.18.582953]: GL_SGIS_texture_edge_clamp
-[03:19.18.582959]: GL_SGIS_texture_lod
-[03:19.18.582965]: GL_SUN_multi_draw_arrays
-[03:19.18.582978]: GL_MAX_TEXTURE_SIZE = 8192
-[03:19.18.582985]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[03:19.18.582992]: GL_MAX_RENDERBUFFER_SIZE = 8192
-[03:19.18.582999]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
-[03:19.18.583006]: GL_MAX_VARYING_VECTORS = 15
-[03:19.18.583013]: GL_MAX_VERTEX_ATTRIBS = 16
-[03:19.18.583019]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
-[03:19.18.583026]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-[03:19.18.583033]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
-[03:19.18.611186]: cDontStarveGame::DoGameSpecificInitialize()
-[03:19.18.618468]: cGame::StartPlaying
-[03:19.18.621876]: LOADING LUA
-[03:19.18.621948]: DoLuaFile data/scripts/main.lua
-[03:19.18.622040]: DoLuaFile loading buffer data/scripts/main.lua
-[03:19.18.653843]: data/scripts/main.lua(115,1)	running main.lua
+[19:07.07.298687]: THREAD - started 'GAClient' (4141558592)
+[19:07.07.298722]: HttpClient::ClientThread::Main()
+[19:07.07.398405]: cGame::InitializeOnMainThread
+[19:07.07.398435]: WindowManager::Initialize
+[19:07.07.436413]: GLInfo
+[19:07.07.436464]: ~~~~~~
+[19:07.07.436480]: GL_VENDOR: nouveau
+[19:07.07.436500]: GL_RENDERER: Gallium 0.4 on NVA8
+[19:07.07.436515]: GL_VERSION: 3.0 Mesa 10.1.3
+[19:07.07.436527]: GL_SHADING_LANGUAGE_VERSION: 1.30
+[19:07.07.436553]: OpenGL 3.0 present, detecting extensions the new way
+[19:07.07.436850]: OpenGL extensions (185, 185):
+[19:07.07.436868]: GL_AMD_conservative_depth
+[19:07.07.436882]: GL_AMD_draw_buffers_blend
+[19:07.07.436897]: GL_AMD_shader_trinary_minmax
+[19:07.07.436908]: GL_ANGLE_texture_compression_dxt3
+[19:07.07.436918]: GL_ANGLE_texture_compression_dxt5
+[19:07.07.436929]: GL_APPLE_packed_pixels
+[19:07.07.436939]: GL_APPLE_vertex_array_object
+[19:07.07.436951]: GL_ARB_ES2_compatibility
+[19:07.07.436965]: GL_ARB_base_instance
+[19:07.07.436976]: GL_ARB_blend_func_extended
+[19:07.07.436987]: GL_ARB_clear_buffer_object
+[19:07.07.437018]: GL_ARB_color_buffer_float
+[19:07.07.437042]: GL_ARB_conservative_depth
+[19:07.07.437055]: GL_ARB_copy_buffer
+[19:07.07.437065]: GL_ARB_debug_output
+[19:07.07.437077]: GL_ARB_depth_buffer_float
+[19:07.07.437088]: GL_ARB_depth_clamp
+[19:07.07.437101]: GL_ARB_depth_texture
+[19:07.07.437110]: GL_ARB_draw_buffers
+[19:07.07.437121]: GL_ARB_draw_buffers_blend
+[19:07.07.437132]: GL_ARB_draw_elements_base_vertex
+[19:07.07.437143]: GL_ARB_draw_instanced
+[19:07.07.437152]: GL_ARB_explicit_attrib_location
+[19:07.07.437162]: GL_ARB_fragment_coord_conventions
+[19:07.07.437172]: GL_ARB_fragment_program
+[19:07.07.437181]: GL_ARB_fragment_program_shadow
+[19:07.07.437190]: GL_ARB_fragment_shader
+[19:07.07.437199]: GL_ARB_framebuffer_object
+[19:07.07.437209]: GL_ARB_framebuffer_sRGB
+[19:07.07.437218]: GL_ARB_get_program_binary
+[19:07.07.437227]: GL_ARB_half_float_pixel
+[19:07.07.437237]: GL_ARB_half_float_vertex
+[19:07.07.437246]: GL_ARB_instanced_arrays
+[19:07.07.437255]: GL_ARB_internalformat_query
+[19:07.07.437271]: GL_ARB_invalidate_subdata
+[19:07.07.437285]: GL_ARB_map_buffer_alignment
+[19:07.07.437295]: GL_ARB_map_buffer_range
+[19:07.07.437306]: GL_ARB_multisample
+[19:07.07.437317]: GL_ARB_multitexture
+[19:07.07.437337]: GL_ARB_occlusion_query
+[19:07.07.437350]: GL_ARB_occlusion_query2
+[19:07.07.437360]: GL_ARB_pixel_buffer_object
+[19:07.07.437373]: GL_ARB_point_parameters
+[19:07.07.437385]: GL_ARB_point_sprite
+[19:07.07.437394]: GL_ARB_provoking_vertex
+[19:07.07.437402]: GL_ARB_robustness
+[19:07.07.437411]: GL_ARB_sampler_objects
+[19:07.07.437419]: GL_ARB_seamless_cube_map
+[19:07.07.437428]: GL_ARB_shader_bit_encoding
+[19:07.07.437436]: GL_ARB_shader_objects
+[19:07.07.437444]: GL_ARB_shader_texture_lod
+[19:07.07.437453]: GL_ARB_shading_language_100
+[19:07.07.437461]: GL_ARB_shading_language_420pack
+[19:07.07.437470]: GL_ARB_shading_language_packing
+[19:07.07.437479]: GL_ARB_shadow
+[19:07.07.437487]: GL_ARB_sync
+[19:07.07.437496]: GL_ARB_texture_border_clamp
+[19:07.07.437504]: GL_ARB_texture_compression
+[19:07.07.437513]: GL_ARB_texture_compression_rgtc
+[19:07.07.437524]: GL_ARB_texture_cube_map
+[19:07.07.437533]: GL_ARB_texture_env_add
+[19:07.07.437543]: GL_ARB_texture_env_combine
+[19:07.07.437552]: GL_ARB_texture_env_crossbar
+[19:07.07.437561]: GL_ARB_texture_env_dot3
+[19:07.07.437570]: GL_ARB_texture_float
+[19:07.07.437580]: GL_ARB_texture_mirror_clamp_to_edge
+[19:07.07.437589]: GL_ARB_texture_mirrored_repeat
+[19:07.07.437599]: GL_ARB_texture_multisample
+[19:07.07.437608]: GL_ARB_texture_non_power_of_two
+[19:07.07.437618]: GL_ARB_texture_rectangle
+[19:07.07.437627]: GL_ARB_texture_rg
+[19:07.07.437637]: GL_ARB_texture_rgb10_a2ui
+[19:07.07.437646]: GL_ARB_texture_storage
+[19:07.07.437655]: GL_ARB_texture_storage_multisample
+[19:07.07.437665]: GL_ARB_texture_swizzle
+[19:07.07.437674]: GL_ARB_timer_query
+[19:07.07.437683]: GL_ARB_transform_feedback2
+[19:07.07.437693]: GL_ARB_transform_feedback3
+[19:07.07.437718]: GL_ARB_transform_feedback_instanced
+[19:07.07.437728]: GL_ARB_transpose_matrix
+[19:07.07.437737]: GL_ARB_uniform_buffer_object
+[19:07.07.437746]: GL_ARB_vertex_array_bgra
+[19:07.07.437756]: GL_ARB_vertex_array_object
+[19:07.07.437765]: GL_ARB_vertex_attrib_binding
+[19:07.07.437775]: GL_ARB_vertex_buffer_object
+[19:07.07.437784]: GL_ARB_vertex_program
+[19:07.07.437793]: GL_ARB_vertex_shader
+[19:07.07.437803]: GL_ARB_vertex_type_2_10_10_10_rev
+[19:07.07.437812]: GL_ARB_window_pos
+[19:07.07.437821]: GL_ATI_blend_equation_separate
+[19:07.07.437831]: GL_ATI_draw_buffers
+[19:07.07.437840]: GL_ATI_separate_stencil
+[19:07.07.437849]: GL_ATI_texture_compression_3dc
+[19:07.07.437859]: GL_ATI_texture_env_combine3
+[19:07.07.437868]: GL_ATI_texture_float
+[19:07.07.437877]: GL_ATI_texture_mirror_once
+[19:07.07.437886]: GL_EXT_abgr
+[19:07.07.437895]: GL_EXT_bgra
+[19:07.07.437904]: GL_EXT_blend_color
+[19:07.07.437913]: GL_EXT_blend_equation_separate
+[19:07.07.437923]: GL_EXT_blend_func_separate
+[19:07.07.437932]: GL_EXT_blend_minmax
+[19:07.07.437941]: GL_EXT_blend_subtract
+[19:07.07.437950]: GL_EXT_compiled_vertex_array
+[19:07.07.437959]: GL_EXT_copy_texture
+[19:07.07.437969]: GL_EXT_draw_buffers2
+[19:07.07.437978]: GL_EXT_draw_instanced
+[19:07.07.437987]: GL_EXT_draw_range_elements
+[19:07.07.437996]: GL_EXT_fog_coord
+[19:07.07.438005]: GL_EXT_framebuffer_blit
+[19:07.07.438014]: GL_EXT_framebuffer_multisample
+[19:07.07.438023]: GL_EXT_framebuffer_multisample_blit_scaled
+[19:07.07.438033]: GL_EXT_framebuffer_object
+[19:07.07.438042]: GL_EXT_framebuffer_sRGB
+[19:07.07.438051]: GL_EXT_gpu_program_parameters
+[19:07.07.438061]: GL_EXT_multi_draw_arrays
+[19:07.07.438070]: GL_EXT_packed_depth_stencil
+[19:07.07.438079]: GL_EXT_packed_float
+[19:07.07.438088]: GL_EXT_packed_pixels
+[19:07.07.438097]: GL_EXT_pixel_buffer_object
+[19:07.07.438107]: GL_EXT_point_parameters
+[19:07.07.438116]: GL_EXT_polygon_offset
+[19:07.07.438125]: GL_EXT_provoking_vertex
+[19:07.07.438134]: GL_EXT_rescale_normal
+[19:07.07.438143]: GL_EXT_secondary_color
+[19:07.07.438152]: GL_EXT_separate_specular_color
+[19:07.07.438162]: GL_EXT_shadow_funcs
+[19:07.07.438171]: GL_EXT_stencil_two_side
+[19:07.07.438180]: GL_EXT_stencil_wrap
+[19:07.07.438189]: GL_EXT_subtexture
+[19:07.07.438198]: GL_EXT_texture
+[19:07.07.438207]: GL_EXT_texture3D
+[19:07.07.438216]: GL_EXT_texture_array
+[19:07.07.438225]: GL_EXT_texture_compression_dxt1
+[19:07.07.438235]: GL_EXT_texture_compression_latc
+[19:07.07.438244]: GL_EXT_texture_compression_rgtc
+[19:07.07.438253]: GL_EXT_texture_compression_s3tc
+[19:07.07.438263]: GL_EXT_texture_cube_map
+[19:07.07.438272]: GL_EXT_texture_edge_clamp
+[19:07.07.438281]: GL_EXT_texture_env_add
+[19:07.07.438290]: GL_EXT_texture_env_combine
+[19:07.07.438300]: GL_EXT_texture_env_dot3
+[19:07.07.438309]: GL_EXT_texture_filter_anisotropic
+[19:07.07.438318]: GL_EXT_texture_integer
+[19:07.07.438327]: GL_EXT_texture_lod_bias
+[19:07.07.438337]: GL_EXT_texture_mirror_clamp
+[19:07.07.438346]: GL_EXT_texture_object
+[19:07.07.438355]: GL_EXT_texture_rectangle
+[19:07.07.438364]: GL_EXT_texture_sRGB
+[19:07.07.438373]: GL_EXT_texture_sRGB_decode
+[19:07.07.438382]: GL_EXT_texture_shared_exponent
+[19:07.07.438391]: GL_EXT_texture_snorm
+[19:07.07.438400]: GL_EXT_texture_swizzle
+[19:07.07.438410]: GL_EXT_timer_query
+[19:07.07.438419]: GL_EXT_transform_feedback
+[19:07.07.438428]: GL_EXT_vertex_array
+[19:07.07.438437]: GL_EXT_vertex_array_bgra
+[19:07.07.438446]: GL_IBM_multimode_draw_arrays
+[19:07.07.438455]: GL_IBM_rasterpos_clip
+[19:07.07.438464]: GL_IBM_texture_mirrored_repeat
+[19:07.07.438473]: GL_INGR_blend_func_separate
+[19:07.07.438482]: GL_KHR_debug
+[19:07.07.438492]: GL_MESA_pack_invert
+[19:07.07.438501]: GL_MESA_texture_signed_rgba
+[19:07.07.438510]: GL_MESA_window_pos
+[19:07.07.438519]: GL_NV_blend_square
+[19:07.07.438528]: GL_NV_conditional_render
+[19:07.07.438537]: GL_NV_depth_clamp
+[19:07.07.438546]: GL_NV_fog_distance
+[19:07.07.438555]: GL_NV_light_max_exponent
+[19:07.07.438565]: GL_NV_packed_depth_stencil
+[19:07.07.438574]: GL_NV_primitive_restart
+[19:07.07.438595]: GL_NV_texgen_reflection
+[19:07.07.438605]: GL_NV_texture_barrier
+[19:07.07.438614]: GL_NV_texture_env_combine4
+[19:07.07.438623]: GL_NV_texture_rectangle
+[19:07.07.438632]: GL_NV_vdpau_interop
+[19:07.07.438641]: GL_OES_EGL_image
+[19:07.07.438650]: GL_OES_read_format
+[19:07.07.438659]: GL_S3_s3tc
+[19:07.07.438668]: GL_SGIS_generate_mipmap
+[19:07.07.438677]: GL_SGIS_texture_border_clamp
+[19:07.07.438686]: GL_SGIS_texture_edge_clamp
+[19:07.07.438695]: GL_SGIS_texture_lod
+[19:07.07.438705]: GL_SUN_multi_draw_arrays
+[19:07.07.438722]: GL_MAX_TEXTURE_SIZE = 8192
+[19:07.07.438733]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[19:07.07.438744]: GL_MAX_RENDERBUFFER_SIZE = 8192
+[19:07.07.438760]: GL_MAX_VIEWPORT_DIMS = 8192, 8192
+[19:07.07.438773]: GL_MAX_VARYING_VECTORS = 15
+[19:07.07.438784]: GL_MAX_VERTEX_ATTRIBS = 16
+[19:07.07.438796]: GL_MAX_VERTEX_UNIFORM_VECTORS = 4096
+[19:07.07.438809]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
+[19:07.07.438821]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 4096
+[19:07.07.487675]: cDontStarveGame::DoGameSpecificInitialize()
+[19:07.07.494945]: cGame::StartPlaying
+[19:07.07.498287]: LOADING LUA
+[19:07.07.498322]: DoLuaFile data/scripts/main.lua
+[19:07.07.498407]: DoLuaFile loading buffer data/scripts/main.lua
+[19:07.07.530707]: data/scripts/main.lua(115,1)	running main.lua
 
-[03:19.18.679021]: LOADING LUA SUCCESS
-[03:19.18.759378]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[03:19.18.760451]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[03:19.18.760960]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[03:19.18.869104]: data/scripts/gamelogic.lua(65,1)	done
-[03:19.18.872046]: Reset() returning
-[03:19.22.462756]: Collecting garbage...
-[03:19.22.471103]: lua_gc took 0.01 seconds
-[03:19.22.479100]: lua_close took 0.01 seconds
-[03:19.22.479631]: ReleaseAll
-[03:19.22.479691]: ReleaseAll Finished
-[03:19.22.479949]: cGame::StartPlaying
-[03:19.22.482772]: LOADING LUA
-[03:19.22.482807]: DoLuaFile data/scripts/main.lua
-[03:19.22.482913]: DoLuaFile loading buffer data/scripts/main.lua
-[03:19.22.514050]: data/scripts/main.lua(115,1)	running main.lua
-
-[03:19.22.514970]: LOADING LUA SUCCESS
-[03:19.22.593517]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[03:19.22.594549]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[03:19.22.641250]: data/scripts/gamelogic.lua(67,1)	LOAD BE
-[03:19.23.371297]: data/scripts/gamelogic.lua(71,1)	done
-[03:19.23.860767]: data/scripts/gamelogic.lua(326,1)	Loading Nav Grid
-[03:19.25.98554]: Reset() returning
-[03:19.27.313734]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.27.624158]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.27.904575]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.28.217037]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.28.528170]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.28.808329]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.29.118912]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.29.430984]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.29.710017]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.30.21627]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.30.304993]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.30.614605]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.30.925842]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.31.206126]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.31.520468]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.31.807714]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.32.134591]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.32.428976]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.32.734392]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.33.3064]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.33.317135]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.33.638654]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.33.924293]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.34.213587]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.34.505663]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.34.835052]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.35.126529]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.35.419616]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.35.707970]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.36.33120]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.36.315700]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.36.630918]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.36.908097]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.37.215845]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.37.526950]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.37.805293]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.38.122986]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.38.405178]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.38.723977]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.39.6780]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.39.323072]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.39.634037]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.39.910692]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.40.225153]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.40.530737]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.40.805481]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.41.115503]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.41.425090]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.41.732348]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.42.3434]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.42.307589]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.42.603900]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.42.934340]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.43.223878]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.43.513183]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.43.827869]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.44.113308]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.44.428057]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.44.707579]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.45.15141]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.45.318943]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.45.616952]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.45.910437]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.46.202401]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.46.522605]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.46.813940]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.47.101746]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.47.420342]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.47.709477]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.48.29614]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.48.319845]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.48.610100]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.48.929077]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.49.218597]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.49.506892]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.49.817109]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.50.126037]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.50.401082]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.50.723507]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.51.17529]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.51.307766]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.51.620420]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.51.905397]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.52.212653]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.52.520744]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.52.802170]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.53.110291]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.53.418445]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.53.722455]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.54.2454]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.54.309806]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.54.615456]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.54.919789]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.55.222812]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.55.523925]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.55.824436]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.56.99773]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.56.400532]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.56.702029]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.57.343]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.57.324453]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.57.620892]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.57.918063]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.58.216603]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.58.513620]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.58.811468]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.59.109438]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.59.409753]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:19.59.705480]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.00.5795]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.00.303805]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.00.604947]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.00.905998]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.01.209279]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.01.511324]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.01.814531]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.02.120291]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.02.401395]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.02.707527]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.03.14123]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.03.322912]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.03.600290]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.03.904795]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.04.208093]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.04.511417]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.04.811894]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.05.113630]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.05.414744]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.05.714159]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.06.15497]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.06.313485]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.06.613211]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.06.908212]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.07.205699]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.07.503875]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.07.801586]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.08.100762]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.08.400355]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.08.723277]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.09.20423]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.09.318964]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.09.617489]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.09.915666]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.10.212864]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.10.513228]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.10.813519]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.11.114869]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.11.415598]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.11.716381]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.12.17832]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.12.319401]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.12.620992]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.12.921975]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.13.225609]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.13.524504]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.13.800510]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.14.102147]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.14.403609]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.14.702692]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.15.1738]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.15.301786]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.15.600726]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.15.923574]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.16.220485]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.16.519387]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.16.814679]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.17.112204]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.17.409950]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.17.709475]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.18.10772]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.18.310997]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.18.615900]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.18.924042]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.19.205629]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.19.512432]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.19.820333]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.20.124333]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.20.405324]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.20.711309]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.21.17447]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.21.301108]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.21.608739]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.21.916021]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.22.225444]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.22.513025]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.22.801837]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.23.118309]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.23.405449]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.23.720116]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.24.9351]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.24.323009]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.24.607567]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.24.924208]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.25.212162]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.25.501786]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.25.819417]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.26.114062]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.26.405434]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.26.720198]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.27.10902]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.27.326381]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.27.614913]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.27.903457]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.28.220153]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.28.509720]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.28.824824]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.29.114377]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.29.403557]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.29.721148]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.30.10504]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.30.301957]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.30.620251]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.30.910464]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.31.201508]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.31.518211]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.31.809373]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.32.100419]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.32.418100]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.32.708956]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.33.29571]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.33.321340]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.33.619494]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.33.920011]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.34.224655]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.34.504927]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.34.816824]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.35.103848]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.35.425804]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.35.720216]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.36.19849]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.36.320566]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.36.615706]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.36.914568]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.37.212101]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.37.510204]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.37.806884]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.38.104449]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.38.402235]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.38.729046]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.39.26217]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.39.322755]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.39.623833]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.39.919628]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.40.215358]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.40.507300]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.40.826209]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.41.116089]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.41.405911]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.41.723271]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.42.12528]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.42.302205]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.42.623186]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.42.910998]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.43.223135]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.43.507809]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.43.820784]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.44.110262]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.44.422432]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.44.708568]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.45.27894]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.45.322111]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.45.621465]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.45.926290]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.46.233970]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.46.510822]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.46.821951]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.47.104332]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.47.417715]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.47.728990]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.48.10064]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.48.322705]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.48.607508]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.48.927295]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.49.216611]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.49.505532]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.49.822727]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.50.108553]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.50.427481]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.50.708784]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.51.22995]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.51.303810]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.51.617311]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.51.929975]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.52.218451]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.52.527226]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.52.820570]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.53.106427]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.53.430631]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.53.724765]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.54.21345]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.54.323353]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.54.630246]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.54.904731]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.55.212850]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.55.524466]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.55.831651]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.56.132065]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.56.425603]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.56.717778]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.57.5669]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.57.324399]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.57.608088]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.57.920371]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.58.228947]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.58.503038]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.58.804231]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.59.102012]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.59.431170]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:20.59.718009]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.00.9008]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.00.327139]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.00.615742]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.00.902214]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.01.218266]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.01.505027]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.01.817828]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.02.103106]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.02.414286]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.02.728325]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.03.8283]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.03.319900]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.03.605409]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.03.912618]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.04.223441]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.04.505472]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.04.816890]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.05.126889]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.05.408347]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.05.718449]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.06.3587]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.06.313026]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.06.624889]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.06.907196]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.07.219507]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.07.503778]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.07.816402]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.08.128089]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.08.410634]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.08.719268]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.09.1529]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.09.316658]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.09.628762]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.09.916343]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.10.204838]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.10.522181]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.10.810290]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.11.129072]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.11.413187]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.11.729332]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.12.16937]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.12.306450]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.12.627133]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.12.912285]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.13.228967]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.13.514453]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.13.828875]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.14.112339]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.14.423950]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.14.708289]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.15.23639]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.15.309171]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.15.625856]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.15.914305]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.16.201327]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.16.521742]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.16.812981]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.17.110833]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.17.409278]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.17.711744]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.18.15722]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.18.322297]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.18.630675]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.18.909459]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.19.226562]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.19.505867]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.19.815968]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.20.131297]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.20.413717]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.20.729009]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.21.13145]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.21.329566]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.21.613374]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.21.926666]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.22.207797]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.22.517616]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.22.825917]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.23.126571]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.23.426877]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.23.722831]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.24.16378]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.24.306953]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.24.626287]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.24.915615]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.25.209884]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.25.507017]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.25.806683]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.26.106145]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.26.407952]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.26.710480]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.27.15893]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.27.322524]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.27.602103]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.27.916757]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.28.204637]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.28.529559]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.28.824767]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.29.127198]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.29.428186]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.29.736181]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.30.10136]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.30.319937]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.30.629666]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.30.906951]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.31.214314]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.31.526688]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.31.806886]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.32.125782]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.32.411319]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.32.727035]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.33.6402]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.33.316441]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.33.624715]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.33.930710]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.34.203819]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.34.513928]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.34.827970]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.35.108607]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.35.420117]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.35.729519]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.36.31690]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.36.333191]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.36.630995]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.36.928731]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.37.226760]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.37.523759]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.37.819592]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.38.114301]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.38.408841]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.38.705296]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.39.34326]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.39.326305]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.39.622132]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.39.918103]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.40.215583]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.40.514188]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.40.812190]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.41.110998]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.41.412909]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.41.707170]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.42.5135]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.42.304691]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.42.632589]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.42.928675]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.43.225840]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.43.520434]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.43.814639]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.44.109280]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.44.403263]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.44.730396]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.45.28403]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.45.326054]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.45.626263]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.45.923595]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.46.226351]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.46.522016]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.46.819096]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.47.117648]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.47.416071]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.47.715942]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.48.17360]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.48.319646]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.48.621575]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.48.924449]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.49.226414]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.49.508839]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.49.827099]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.50.109171]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.50.288648]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[03:21.50.399249]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[03:21.50.683224]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[03:21.50.761713]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.51.61708]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.51.345401]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.51.633789]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.51.940697]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.52.245938]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.52.551507]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.52.853288]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.53.158921]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.53.463190]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.53.733675]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.54.40237]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.54.345142]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.54.647793]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.54.950611]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.55.256048]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.55.562267]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.55.833725]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.56.137294]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.56.441067]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.56.746688]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.57.50779]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.57.355641]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.57.659907]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.57.931565]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.58.236534]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.58.540693]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.58.843577]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.59.150200]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.59.452512]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:21.59.757067]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.00.34544]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.00.332978]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.00.638653]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.00.943417]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.01.248067]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.01.551711]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.01.852447]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.02.154494]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.02.454159]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.02.749265]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.03.42367]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.03.332637]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.03.650365]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.03.933547]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.04.245175]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.04.558691]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.04.837122]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.05.145326]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.05.452781]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.05.762534]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.06.41447]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.06.344304]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.06.647961]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.06.950999]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.07.254978]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.07.559933]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.07.837761]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.08.135928]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.08.432927]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.08.730742]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.09.32834]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.09.356777]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.09.654175]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.09.950825]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.10.249275]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.10.546845]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.10.846664]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.11.143003]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.11.441560]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.11.735817]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.12.30279]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.12.353036]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.12.645542]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.12.939508]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.13.235970]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.13.557893]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.13.850976]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.14.147494]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.14.438913]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.14.732179]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.15.52428]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.15.339907]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.15.657313]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.15.941749]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.16.228928]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.16.543938]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.16.830139]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.17.146289]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.17.436407]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.17.751173]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.18.38428]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.18.352332]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.18.639467]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.18.956859]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.19.243079]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.19.529460]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.19.845258]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.20.134087]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.20.449574]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.20.742064]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.21.33239]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.21.328988]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.21.630145]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.21.933541]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.22.238923]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.22.541650]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.22.845551]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.23.150217]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.23.454539]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.23.729820]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.24.35976]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.24.338567]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.24.643594]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.24.948198]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.25.253996]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.25.561443]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.25.830897]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.26.155104]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.26.447255]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.26.737592]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.27.55654]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.27.343720]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.27.633050]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.27.948841]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.28.236668]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.28.552229]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.28.843056]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.29.129368]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.29.445082]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.29.732849]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.30.49381]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.30.337212]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.30.653922]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.30.942043]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.31.230262]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.31.545514]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.31.833255]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.32.153569]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.32.441792]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.32.737226]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.33.35381]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.33.339035]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.33.646545]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.33.957455]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.34.241340]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.34.558438]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.34.846881]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.35.133809]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.35.451618]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.35.732436]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.36.44268]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.36.349041]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.36.647832]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.36.936696]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.37.247244]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.37.550672]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.37.847857]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.38.143801]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.38.438023]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.38.735143]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.39.56839]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.39.349660]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.39.643577]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.39.940058]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.40.233291]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.40.554000]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.40.847498]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.41.141448]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.41.433167]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.41.752656]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.42.48503]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.42.339035]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.42.630368]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.42.947694]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.43.239668]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.43.531414]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.43.848536]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.44.139232]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.44.453873]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.44.743040]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.45.33061]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.45.352259]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.45.640177]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.45.929401]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.46.246012]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.46.534251]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.46.850935]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.47.139815]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.47.454086]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.47.742059]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.48.34881]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.48.346116]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.48.636291]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.48.948444]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.49.237149]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.49.550541]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.49.841396]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.50.154249]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.50.440151]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.50.752984]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.51.44261]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.51.328201]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.51.641574]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.51.955277]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.52.240716]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.52.552689]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.52.839824]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.53.155510]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.53.440094]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.53.752826]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.54.39250]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.54.352948]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.54.639716]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.54.954015]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.55.243263]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.55.528485]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.55.840990]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.56.154629]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.56.443439]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.56.729533]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.57.42516]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.57.331312]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.57.645189]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.57.931128]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.58.244917]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.58.534059]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.58.844316]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.59.134811]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.59.443890]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:22.59.730409]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.00.42499]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.00.329290]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.00.641715]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.00.953758]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.01.241587]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.01.553283]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.01.841453]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.02.155830]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.02.439696]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.02.750726]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.03.41046]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.03.349539]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.03.637016]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.03.948954]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.04.236612]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.04.550357]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.04.839053]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.05.132844]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.05.442994]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.05.730241]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.06.44208]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.06.333794]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.06.653046]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.06.939212]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.07.229080]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.07.543650]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.07.834250]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.08.151619]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.08.446816]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.08.738834]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.09.38069]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.09.333396]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.09.638159]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.09.950089]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.10.244378]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.10.543898]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.10.850100]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.11.129402]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.11.443927]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.11.763102]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.12.46882]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.12.337008]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.12.656617]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.12.960188]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.13.248797]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.13.535268]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.13.851903]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.14.135308]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.14.449190]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.14.729874]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.15.44643]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.15.346321]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.15.654875]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.15.939325]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.16.250859]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.16.537582]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.16.857098]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.17.145534]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.17.429732]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.17.740161]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.18.48257]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.18.362394]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.18.632433]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.18.941232]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.19.247686]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.19.553985]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.19.829790]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.20.137918]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.20.444905]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.20.752477]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.21.60445]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.21.337653]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.21.649169]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.21.959946]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.22.242861]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.22.558774]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.22.844413]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.23.131018]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.23.447544]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.23.731621]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.24.44644]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.24.355366]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.24.633361]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.24.944835]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.25.254222]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.25.530807]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.25.840344]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.26.149466]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.26.458684]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.26.736050]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.27.46042]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.27.355968]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.27.633965]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.27.943011]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.28.254897]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.28.531785]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.28.842187]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.29.152161]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.29.429868]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.29.736896]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.30.39182]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.30.340719]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.30.638213]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.30.933505]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.31.253065]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.31.540164]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.31.847777]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.32.152647]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.32.450519]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.32.746689]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.33.39157]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.33.333419]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.33.646456]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.33.933335]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.34.241307]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.34.545966]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.34.851177]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.35.153593]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.35.451078]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.35.751611]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.36.30817]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.36.350052]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.36.648285]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.36.947317]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.37.247767]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.37.547844]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.37.848777]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.38.152115]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.38.448954]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.38.747407]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.39.42598]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.39.345723]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.39.645732]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.39.946513]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.40.247092]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.40.545919]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.40.845033]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.41.146962]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.41.446557]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.41.745057]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.42.42963]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.42.344004]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.42.643125]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.42.943035]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.43.242587]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.43.541996]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.43.843365]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.44.144260]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.44.443862]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.44.746250]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.45.42681]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.45.343141]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.45.642996]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.45.944174]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.46.245102]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.46.545007]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.46.845036]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.47.145718]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.47.444298]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.47.745435]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.48.45146]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.48.345787]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.48.646218]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.48.945388]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.49.246312]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.49.545375]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.49.844416]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.50.143277]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.50.441119]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.50.741002]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.51.41082]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.51.343777]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.51.641373]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.51.943020]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.52.247809]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.52.552142]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.52.830637]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.53.136170]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.53.442018]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.53.749393]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.54.34482]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.54.339321]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.54.649156]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.54.930224]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.55.238181]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.55.544113]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.55.850055]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:23.56.130906]: FMOD Error: Can't play event dontstarve/creatures/chester/pant: File not found. 
-[03:25.15.13101]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[03:25.57.927684]: FMOD Error: Can't find named sound ragtime
-[03:27.53.15161]: data/scripts/components/hunter.lua(153,1)	Suspicious dirt placed
-[03:30.01.914565]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[03:30.02.25631]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[03:30.02.294941]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[03:34.52.94273]: FMOD Error: Can't find named sound ragtime
-[03:35.42.605793]: FMOD Error: Can't find named sound ragtime
-[03:35.44.398287]: FMOD Error: Can't find named sound ragtime
-[03:36.08.207462]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[03:36.08.319334]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[03:36.08.629445]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[03:36.58.904113]: FMOD Error: Can't find named sound ragtime
-[03:37.06.994002]: FMOD Error: Can't find named sound ragtime
-[03:39.11.595722]: FMOD Error: Can't find named sound ragtime
-[03:39.20.8745]: FMOD Error: Can't find named sound ragtime
-[03:39.21.500977]: FMOD Error: Can't find named sound ragtime
-[03:39.22.393326]: FMOD Error: Can't find named sound ragtime
-[03:42.11.641746]: FMOD Error: Can't find named sound ragtime
-[03:42.13.456664]: FMOD Error: Can't find named sound ragtime
-[03:42.47.494369]: data/scripts/gamelogic.lua(231,1)	Day has arrived...
-[03:42.47.602556]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[03:42.47.918771]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[03:43.42.631687]: data/scripts/main.lua(607,1)	Can't find	100007	100007 - wilson
-[03:43.42.874228]: data/scripts/main.lua(630,1)	Saved	survival_1	nil
-[03:43.42.931914]: Collecting garbage...
-[03:43.43.75057]: lua_gc took 0.14 seconds
-[03:43.43.235741]: lua_close took 0.16 seconds
-[03:43.43.236234]: ReleaseAll
-[03:43.43.239359]: ReleaseAll Finished
-[03:43.43.239621]: cGame::StartPlaying
-[03:43.43.243029]: LOADING LUA
-[03:43.43.243066]: DoLuaFile data/scripts/main.lua
-[03:43.43.243195]: DoLuaFile loading buffer data/scripts/main.lua
-[03:43.43.276762]: data/scripts/main.lua(115,1)	running main.lua
-
-[03:43.43.277825]: LOADING LUA SUCCESS
-[03:43.43.359166]: data/scripts/playerprofile.lua(228,1)	loaded profile
-[03:43.43.360238]: data/scripts/saveindex.lua(65,1)	loaded saveindex
-[03:43.43.360763]: data/scripts/gamelogic.lua(61,1)	LOAD FE
-[03:43.43.458982]: data/scripts/gamelogic.lua(65,1)	done
-[03:43.43.461553]: Reset() returning
-[03:43.45.98701]: Collecting garbage...
-[03:43.45.107711]: lua_gc took 0.01 seconds
-[03:43.45.116859]: lua_close took 0.01 seconds
-[03:43.45.117800]: ORPHANED UNKNOWN RESOURCES:
-[03:43.45.117819]: data/fonts/belisaplumilla100.zip - 2
-[03:43.45.117827]: data/fonts/belisaplumilla50.zip - 2
-[03:43.45.117836]: data/fonts/talkingfont.zip - 2
-[03:43.45.117843]: data/fonts/stint-ucr20.zip - 2
-[03:43.45.117850]: data/fonts/buttonfont.zip - 2
-[03:43.45.117857]: data/fonts/stint-ucr50.zip - 2
-[03:43.45.117864]: data/fonts/opensans50.zip - 2
-[03:43.45.153337]: ORPHANED UNKNOWN RESOURCES:
-[03:43.45.153372]: data/fonts/belisaplumilla100.zip - 1
-[03:43.45.153418]: data/fonts/belisaplumilla50.zip - 1
-[03:43.45.153463]: data/fonts/talkingfont.zip - 1
-[03:43.45.153511]: data/fonts/stint-ucr20.zip - 1
-[03:43.45.153557]: data/fonts/buttonfont.zip - 1
-[03:43.45.153569]: data/fonts/stint-ucr50.zip - 1
-[03:43.45.153611]: data/images/square.tex - 2
-[03:43.45.153656]: data/fonts/opensans50.zip - 1
-[03:43.45.215223]: HttpClient::ClientThread::Main() complete
-[03:43.45.215310]: Shutting down
+[19:07.07.555505]: LOADING LUA SUCCESS
+[19:07.07.635777]: data/scripts/playerprofile.lua(228,1)	loaded profile
+[19:07.07.637293]: data/scripts/saveindex.lua(65,1)	loaded saveindex
+[19:07.07.637966]: data/scripts/gamelogic.lua(61,1)	LOAD FE
+[19:07.07.744542]: data/scripts/gamelogic.lua(65,1)	done
+[19:07.07.747740]: Reset() returning
+[19:07.10.899812]: Collecting garbage...
+[19:07.10.907487]: lua_gc took 0.01 seconds
+[19:07.10.915179]: lua_close took 0.01 seconds
+[19:07.10.925507]: ORPHANED UNKNOWN RESOURCES:
+[19:07.10.925543]: data/images/square.tex - 2
+[19:07.10.970602]: HttpClient::ClientThread::Main() complete
+[19:07.10.971170]: Shutting down
